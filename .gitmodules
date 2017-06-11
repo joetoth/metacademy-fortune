@@ -1,0 +1,3 @@
+[submodule "metacademy-content"]
+	path = metacademy-content
+	url = https://github.com/metacademy/metacademy-content.git
