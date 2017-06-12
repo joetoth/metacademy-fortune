@@ -1,4 +1,4 @@
-# metacademy-fortune
+# Metacademy Fortune
 Generate fortune file from metacademy.org content in order to print a concept and summary when a new terminal session is started.
 ```
 git clone --recursive git@github.com:joetoth/metacademy-fortune.git
