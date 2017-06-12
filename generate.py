@@ -16,7 +16,7 @@ def generate():
     if os.path.exists(sfile):
       with open(sfile, 'r') as s:
         summary = s.read().strip()
-    fortune += '{}: {}\n%\n'.format(title, summary)
+    fortune += '{}: {}\nhttps://metacademy.org/graphs/concepts/{}\n%\n'.format(title, summary, f)
 
   with open('metacademy-fortune', 'w') as f:
     f.write(fortune)

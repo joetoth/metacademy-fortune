@@ -1,789 +1,1182 @@
 DETERMINANT AND VOLUME: The volume of a box in n dimensions is given by the determinant of the matrix whose columns are the sides of the box. When a matrix is used as a linear transformation, it scales the volume of a set by its determinant.
+https://metacademy.org/graphs/concepts/determinant_and_volume
 %
 DIRICHLET DIFFUSION TREES: The volume of a box in n dimensions is given by the determinant of the matrix whose columns are the sides of the box. When a matrix is used as a linear transformation, it scales the volume of a set by its determinant.
+https://metacademy.org/graphs/concepts/dirichlet_diffusion_trees
 %
 RUSSELL'S PARADOX: Consider the set S of all sets which are not members of themselves: is S a member of itself?  Either answer leads to a contradiction. Russell's Paradox, as this is called, showed that Cantor's original formulation of set theory was inconsistent and led to more precise axiomatizations of set theory, such as the Zermelo-Frankl axioms.
+https://metacademy.org/graphs/concepts/russells_paradox
 %
 CONVEX OPTIMIZATION: Convex optimization refers to optimizing a convex function over a convex set. It is a very broad class of problems, encompassing widely used techniques such as linear programming, linear least squares, quadratic programming, and semidefinite programming. Convex optimization is important because for reasonable-sized problems, there are efficient algorithms for finding the global optimum.
+https://metacademy.org/graphs/concepts/convex_optimization
 %
 MAXIMUM LIKELIHOOD IN EXPONENTIAL FAMILIES: For any exponential family model, the maximum likelihood parameters are such that the model moments match the data moments.
+https://metacademy.org/graphs/concepts/maximum_likelihood_in_exponential_families
 %
 MEAN FIELD APPROXIMATION: In variational inference algorithms, we try to approximate an intractable distribution with a tractable one. Mean field is probably the most common example. The approximating distribution is factorized into independent terms corresponding to different variables or groups of variables. Variational Bayes and variational Bayes EM are important applications of mean field to Bayesian parameter estimation.
+https://metacademy.org/graphs/concepts/mean_field
 %
 REASONING WITH HORN CLAUSES: Horn clauses are a restricted kind of formula in propositional or first-order logic which are computationally tractable, yet highly expressive. They form the core of programs in Prolog, a popular logic programming language. One can reason efficiently with Horn clauses using a combination of forward and backward chaining.
+https://metacademy.org/graphs/concepts/reasoning_with_horn_clauses
 %
 BELLMAN EQUATIONS: The Bellman equations are a system of equations that provide a recursive definition of optimality associated with dynamic programming. Informally, the Bellman equations state that optimality is achieved by taking an optimal first action and recursively taking optimal subsequent actions.
 
 # TODO Bellman equations occur in a lot of areas, e.g. economics, perhaps make more specific concepts for the Bellman equations
+https://metacademy.org/graphs/concepts/bellman_equations
 %
 REPRESENTABILITY IN ARITHMETIC: A relation is definable in a first-order theory T if there is a formula f expressible in the language of T, such that f(x) is provable in T whenever x is in R; otherwise the negation must be provable. It can be shown that the functions representable in arithmetic are exactly those functions which are recursive, or equivalently, computable. The notion of representability is used to construct self-referential sentences in the proof of Godel's Incompleteness Theorem.
+https://metacademy.org/graphs/concepts/representability_in_arithmetic
 %
 HIGHER-ORDER PARTIAL DERIVATIVES: When we take partial derivatives of partial derivatives, we get what are known as higher-order partial derivatives. This can describe local properties of a function which aren't captured by the first-order approximation.
+https://metacademy.org/graphs/concepts/higher_order_partial_derivatives
 %
 CONVOLUTIONAL NEURAL NETS: Convolutional neural networks are a kind of feed-forward neural net architecture geared towards visual processing. In each layer, there are several groups of units whose weights are repeated (or "shared") across all spatial locations. The forward pass and backpropagation updates can both be computed efficiently using convolution.
+https://metacademy.org/graphs/concepts/convolutional_nets
 %
 NONDETERMINISTIC TURING MACHINES: Nondeterministic Turing machines are a variant of Turing machines which can have multiple possible actions in a given state. They accept an input if there is any possible execution path which accepts it. They are no more powerful than ordinary Turing machines in terms of what they can compute, but are believed to be much more powerful in terms of what they can compute efficiently.
+https://metacademy.org/graphs/concepts/nondeterministic_turing_machines
 %
 VARIATIONAL CHARACTERIZATION OF EIGENVALUES: Nondeterministic Turing machines are a variant of Turing machines which can have multiple possible actions in a given state. They accept an input if there is any possible execution path which accepts it. They are no more powerful than ordinary Turing machines in terms of what they can compute, but are believed to be much more powerful in terms of what they can compute efficiently.
+https://metacademy.org/graphs/concepts/variational_characterization_of_eigenvalues
 %
 ADAPTIVE REJECTION SAMPLING: Adaptive rejection sampling (ARS) is a technique used to automatically choose and refine an envelope distribution, q(z), for rejection sampling of distribution p(z). ARS initially forms an envelope distribution, q(z), as a piecewise combination of intersecting line segments that outline p(z). These line segments are the tangents of log(p(z)) evaluated along a set of initial grid points and are guaranteed to enclose p(z) if p(z) is log-concave (the derivative of log(p(z)) is nonincreasing) -- this property holds for a large number of distributions. ARS then proceeds like rejection sampling, though if a sampled point is rejected at point x* then the tangent of log(p(x*)) is added to the envelope distributions, which shrinks the proposal distribution around the true distribution and leads to fewer rejected samples later on.
+https://metacademy.org/graphs/concepts/adaptive_rejection_sampling
 %
 METHOD OF MOMENTS: The method of moments is a simple method for estimating the parameters of a probability distribution from data. The parameters are chosen so that the model moments match the empirical moments.
+https://metacademy.org/graphs/concepts/method_of_moments
 %
 PARAMETRIC CURVES: The method of moments is a simple method for estimating the parameters of a probability distribution from data. The parameters are chosen so that the model moments match the empirical moments.
+https://metacademy.org/graphs/concepts/parametric_curves
 %
 VALUE ITERATION: Value iteration is a recursive algorithm for computing the value function, and in turn the optimal policy, for a Markov decision process.
+https://metacademy.org/graphs/concepts/value_iteration
 %
 SPECTRAL DECOMPOSITION: The spectral decomposition is the decomposition of a symmetric matrix A into QDQ^T, where Q is an orthogonal matrix and D is a diagonal matrix. The columns of Q correspond to the eigenvectors of A, and the diagonal entries of D correspond to the eigenvalues. This is possible because of a surprising fact about symmetric matrices: they have a full set of orthogonal eigenvectors. This decomposition gives a useful way to think about symmetric matrices: they are like diagonal matrices in a rotated coordinate system.
+https://metacademy.org/graphs/concepts/spectral_decomposition
 %
 BINOMIAL DISTRIBUTION: The binomial distribution describes the number of successes in a fixed number of independent trials, each with the same success probability. When the number of trials is large, the distribution is approximately bell-shaped.
+https://metacademy.org/graphs/concepts/binomial_distribution
 %
 COMPUTING PROBABILITIES BY COUNTING: Sometimes probability calculations involve large numbers of outcomes with equal probabilities. In this case, we can compute probabilities by counting the number of outcomes, using formulas for permutations and combinations.
+https://metacademy.org/graphs/concepts/computing_probabilities_by_counting
 %
 LOOPY BP AS VARIATIONAL INFERENCE: Loopy belief propagation sounds like a hack, but it can be interpreted as a variational inference algorithm. In particular, it is a fixed point update for an approximation to variational inference, where both the energy functional and the marginal polytope are approximated. While this analysis doesn't lead to any strong guarantees, it is the basis for generalizations of loopy BP which have stronger guarantees.
+https://metacademy.org/graphs/concepts/loopy_bp_as_variational
 %
 SOLVING DIFFERENCE EQUATIONS WITH MATRICES: Difference equations, such as the recurrence formula for the Fibonacci sequence, can be represented as powers of a matrix. If that matrix is diagonalizable, the eigenvalues and eigenvectors yield a closed form solution to the difference equation.
+https://metacademy.org/graphs/concepts/solving_difference_equations_with_matrices
 %
 ORDINAL NUMBERS: The ordinal numbers are a way of measuring the size of well-ordered sets. They give a way of talking about different sizes of infinity. They are needed to construct the cardinal numbers, which measure the sizes of sets more generally.
+https://metacademy.org/graphs/concepts/ordinal_numbers
 %
 LOG-LINEAR MRFS: Often, when we use MRFs, we want to assign a particular functional form to the cliques. A common choice is a log-linear representation, where the potentials are log-linear functions of the model parameters. Boltzmann machines and Gaussian MRFs are probably the most common examples.
+https://metacademy.org/graphs/concepts/log_linear_mrfs
 %
 FACTOR ANALYSIS: Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors. In other words, it is possible, for example, that variations in three or four observed variables mainly reflect the variations in fewer unobserved variables. Factor analysis searches for such joint variations in response to unobserved latent variables. The observed variables are modelled as linear combinations of the potential factors, plus "error" terms. [from Wikipedia]
+https://metacademy.org/graphs/concepts/factor_analysis
 %
 RANDOM VARIABLES: Random variables are the central object of probability theory. As their name implies, can be thought of as variables whose values are randomly determined. Mathematically, they are represented as functions on a sample space.
+https://metacademy.org/graphs/concepts/random_variables
 %
 SUM-PRODUCT ON TREES: Sum-product is an algorithm for marginalization and partition function computation in graphical models. It is based on dynamic programming, and has the advantage that it reuses computations to compute marginals for all nodes in the graph. It is a generalization of the forward-backward algorithm for hidden Markov models.
+https://metacademy.org/graphs/concepts/sum_product_on_trees
 %
 ORTHOGONAL SUBSPACES: Two subspaces X and Y are orthogonal if any vector in X is orthogonal to any vector in Y. Canonical examples include the row space and nullspace, and the column space and left nullspace. Orthogonality is used to analyze projections and least squares approximation.
+https://metacademy.org/graphs/concepts/orthogonal_subspaces
 %
 BOOSTING AS OPTIMIZATION: AdaBoost can be interpreted as a sequential procedure for minimizing the exponential loss on the training set with respect to the coefficients of a particular basis function expansion. This leads to generalizations of the algorithm to different loss functions.
+https://metacademy.org/graphs/concepts/boosting_as_optimization
 %
 D-SEPARATION: D-separation gives a way of determining conditional independence properties in Bayes nets in terms of the graph structure. It captures an intuitive notion of the "flow" of probabilistic influence through the graph.
+https://metacademy.org/graphs/concepts/d_separation
 %
 CHERNOFF BOUNDS: The Chernoff bounds are a way of bounding the probability that a sum of independent random variables takes on extreme values. Compared with Chebyshev's inequality, it requires a stronger assumption (independence), but is a far tighter bound. They are commonly used to analyze randomized algorithms and PAC-learning methods.
+https://metacademy.org/graphs/concepts/chernoff_bounds
 %
 FISHER KERNEL: The Chernoff bounds are a way of bounding the probability that a sum of independent random variables takes on extreme values. Compared with Chebyshev's inequality, it requires a stronger assumption (independence), but is a far tighter bound. They are commonly used to analyze randomized algorithms and PAC-learning methods.
+https://metacademy.org/graphs/concepts/fisher_kernel
 %
 EVALUATING MULTIPLE INTEGRALS: CHANGE OF VARIABLES: A useful trick for computing multiple integrals is to find a simpler parameterization of the region and apply the change of variables formula.
+https://metacademy.org/graphs/concepts/eval_multi_int_change_of_variables
 %
 MULTINOMIAL LOGISTIC REGRESSION: Multinomial logistic regression is a generalization of logistic regression to the case where there are more than two categories.
+https://metacademy.org/graphs/concepts/multinomial_logistic_regression
 %
 NATURAL NUMBERS AS SETS: The natural numbers can be explicitly constructed as sets. Zero is defined to be the empty set, and each n > 0 is defined to be the set of natural numbers less than n. This is an example of how set theory serves as a powerful foundation for much of mathematics.
+https://metacademy.org/graphs/concepts/natural_numbers_as_sets
 %
 BAYESIAN PARAMETER ESTIMATION: MULTINOMIAL DISTRIBUTION: Suppose we observe a set of draws from a multinomial distribution with unknown parameters and we're trying to predict the distribution over subsequent draws. If we put a Dirichlet prior over the probabilities, we can analytically integrate out the parameters to get the posterior predictive distribution. This has a very simple form: adding fake counts and then normalizing. These ideas are used more generally in Bayesian models involving discrete variables.
+https://metacademy.org/graphs/concepts/bayesian_parameter_estimation_multinomial
 %
 MULTIVARIATE CDF: Multivariate cumulative distribution functions (CDFs) are a way of characterizing multivariate distributions which generalize the univariate CDF.
+https://metacademy.org/graphs/concepts/multivariate_cdf
 %
 RECURSION THEOREM: Many mathematical objects, such as natural numbers, lists, and trees, are defined recursively in terms of basic components and composition rules. The Recursion Theorem shows that functions defined recursively on such objects are well-defined.
+https://metacademy.org/graphs/concepts/recursion_theorem
 %
 WEIGHT DECAY IN NEURAL NETWORKS: When training neural networks, it is common to use "weight decay," where after each update, the weights are multiplied by a factor slightly less than 1. This prevents the weights from growing too large, and can be seen as gradient descent on a quadratic regularization term.
+https://metacademy.org/graphs/concepts/weight_decay_neural_networks
 %
 CONSTRUCTING THE RATIONALS: The rational numbers can be constructed from the integers.
+https://metacademy.org/graphs/concepts/constructing_the_rationals
 %
 VARIATIONAL INFERENCE: In most probabilistic models of interest, it's intractable to compute posterior marginals and/or normalizing constants exactly. Variational inference is a framework for approximating both. Variational inference treats inference as an optimization problem: we're trying to find a distribution (or a representation resembling a distribution) which is as close as possible to the true posterior, according to some measure.
+https://metacademy.org/graphs/concepts/variational_inference
 %
 KALMAN FILTER: The Kalman filter is an algorithm for inference in linear dynamical systems. Specifically, the task is to infer the posterior over the current latent state given past observations. It forms the basis for approximate inference algorithms in more general state space models.
+https://metacademy.org/graphs/concepts/kalman_filter
 %
 COUNTABLE SETS: A set is countably infinite if it can be put into one-to-one correspondence with the natural numbers. Countably infinite sets include the natural numbers, the rationals, and the algebraic numbers -- surprisingly, these are all "the same size" in the set-theoretic sense. By contrast, the set of real numbers is uncountably infinite. The more general notion of cardinality lets us distinguish different "sizes" of infinity.
+https://metacademy.org/graphs/concepts/countable_sets
 %
 PROJECTION ONTO A SUBSPACE: The projection of a vector b onto a subspace X is the closest point to b contained in X. Projection is a linear operation, and can be computed using a projection matrix. It is used in linear least squares approximation.
+https://metacademy.org/graphs/concepts/projection_onto_a_subspace
 %
 MRF PARAMETER LEARNING: The parameters of a Markov random field (MRF) can be fit to data using maximum likelihood. The optimal parameters have an interesting interpretation: they are the parameters such that certain sufficient statistics of the model must match the corresponding statistics of the empirical distribution.
+https://metacademy.org/graphs/concepts/mrf_parameter_learning
 %
 EXPONENTIAL FAMILIES: Exponential families are a broad class of probability distributions which includes many basic distributions such as Bernoullis and Gaussians, as well as Markov random fields. What they have in common is that the distributions can be represented in terms of log-linear functions of sufficient statistics.
+https://metacademy.org/graphs/concepts/exponential_families
 %
 MARKOV CHAINS: In a Markov chain, a system transitions stochastically from one state to another. It is a memoryless process, in the sense that the distribution over the next state depends only on the current state, and not on the state at any past time. Markov chains are useful models of many natural processes and the basis of powerful techniques in probabilistic inference and randomized algorithms.
+https://metacademy.org/graphs/concepts/markov_chains
 %
 BETA PROCESS: The beta process is a random discrete measure that is completely described by a countably infinite set of atoms, where each atom has a finite mass determined from a stick-breaking process. Unlike the Dirichlet process, the weights of the atoms do not have to sum to one, but the masses must be between [0,1], and the marginals of the beta process are not beta distributed. The beta process can be used as a base measure for a Bernoulli process, i.e. to yield a stochastic process for binary random variables.
+https://metacademy.org/graphs/concepts/beta_process
 %
 SEMANTICS OF FIRST-ORDER LOGIC: The semantics of a first-order language is defined in terms of mathematical structures which give the meanings of all the constants, functions, and predicates in the language. In particular, one can recursively define a function which evaluates, given a structure and a first-order sentence, whether the structure satisfies the sentence. If all structures satisfying a set A of sentences also satisfy another set B of sentences, then A logically implies B.
+https://metacademy.org/graphs/concepts/semantics_of_first_order_logic
 %
 CONSERVATIVE VECTOR FIELDS: A vector field is conservative if it can be expressed as the gradient of a function (called the potential function), or equivalently, if all line integrals are path independent. The notion is useful because dynamical systems are easier to analyze if they can be described in terms of a potential function.
+https://metacademy.org/graphs/concepts/conservative_vector_fields
 %
 STRUCTURAL INDUCTION: Many mathematical objects, such as natural numbers, lists, and trees, are defined recursively in terms of basic components and composition rules. Structural induction is a technique for proving statements inductively about recursively defined structures. One proves base cases corresponding to the base objects, as well as inductive steps corresponding to each of the composition rules.
+https://metacademy.org/graphs/concepts/structural_induction
 %
 K-MEANS: K-means is a clustering algorithm, i.e. a way of partitioning a set of data points into "clusters," or sets of data points which are similar to one another. It works by iteratively reassigning data points to clusters and computing cluster centers based on the average of the point locations. It is commonly used for vector quantization and as an initialization for Gaussian mixture models.
+https://metacademy.org/graphs/concepts/k_means
 %
 PARAMETRIC SURFACES: K-means is a clustering algorithm, i.e. a way of partitioning a set of data points into "clusters," or sets of data points which are similar to one another. It works by iteratively reassigning data points to clusters and computing cluster centers based on the average of the point locations. It is commonly used for vector quantization and as an initialization for Gaussian mixture models.
+https://metacademy.org/graphs/concepts/parametric_surfaces
 %
 LIMITS AND CONTINUITY IN R^N: The concept of a limit extends naturally to functions of multiple variables, and higher-dimensional limits share many of the same properties as the single-variable ones.
+https://metacademy.org/graphs/concepts/limits_and_continuity_in_rn
 %
 THE LAPLACE APPROXIMATION: The Laplace approximation is a way of approximating Bayesian parameter estimation and Bayesian model comparison. It is based on a second-order Taylor approximation of the log posterior around the MAP estimate, which results in a Gaussian approximation to the posterior.
+https://metacademy.org/graphs/concepts/laplace_approximation
 %
 GAUSSIAN BP ON TREES: Marginalization in Gaussian MRFs can be performed in cubic time by inverting a matrix, but this is too slow for some applications. If the model is tree-structured, belief propagation can compute the means and single-node variances in linear time. Unlike in general MRFs, it turns out that the loopy version yields the correct means.
+https://metacademy.org/graphs/concepts/gaussian_bp_on_trees
 %
 FISHER INFORMATION MATRIX: Marginalization in Gaussian MRFs can be performed in cubic time by inverting a matrix, but this is too slow for some applications. If the model is tree-structured, belief propagation can compute the means and single-node variances in linear time. Unlike in general MRFs, it turns out that the loopy version yields the correct means.
+https://metacademy.org/graphs/concepts/fisher_information_matrix
 %
 GODEL NUMBERING: One can define a system ("Godel numbering") for encoding expressions and derivations (in some logical system) as numbers. All the syntactic operations needed to verify derivations are recursive and can be represented in arithmetic. This shows that any logical theory which includes arithmetic is powerful enough to talk about itself. This idea is used to construct self-referential sentences in Godel's Incompleteness Theorem and related results.
+https://metacademy.org/graphs/concepts/godel_numbering
 %
 SOLUTION SETS OF LINEAR SYSTEMS: The set of solutions to Ax = b can be characterized in terms of the column space and nullspace of A. If b is in the column space of A, then a solution exists, otherwise not. The full set of solutions is given by any particular solution x0, plus the nullspace of A.
+https://metacademy.org/graphs/concepts/solution_sets_of_linear_systems
 %
 COMPARING GAUSSIAN MIXTURES AND K-MEANS: Gaussian mixture models and K-means are two canonical approaches to clustering, i.e. dividing data points into meaningful groups. This concept node discusses the tradeoffs between them.
+https://metacademy.org/graphs/concepts/gaussian_mixtures_vs_k_means
 %
 COMPLETENESS OF FIRST-ORDER LOGIC: Godel's Completeness Theorem shows that there is a complete (and sound) deductive calculus for first-order logic. In other words, if some set of sentences is consistent (one cannot derive a contradiction from them), then there is some model in which all the sentences are satisfied. This result is significant in that it unifies the syntax and semantics of first-order logic.
+https://metacademy.org/graphs/concepts/completeness_of_first_order_logic
 %
 ZORN'S LEMMA: Zorn's Lemma states that if every chain in a partially ordered set S has an upper bound, then S has a maximal element. Zorn's Lemma is equivalent to the Axiom of Choice.
+https://metacademy.org/graphs/concepts/zorns_lemma
 %
 EIGENVALUES AND EIGENVECTORS: If A is a square matrix, the eigenvalues are the scalar values u satisfying Ax = ux, and the eigenvectors are the values of x. Eigenvectors and eigenvalues give a convenient representation of matrices for computing powers of matrices and for solving differential equations. An important special case is the spectral decomposition of symmetric matrices.
+https://metacademy.org/graphs/concepts/eigenvalues_and_eigenvectors
 %
 RECURRENT NEURAL NETWORKS: Recurrent neural networks (RNNs) are a kind of neural net often used to model sequence data. They maintain a hidden state which can "remember" certain aspects of the sequence it has seen. RNNs can be trained using backpropagation through time, although efficient training remains an open problem.
+https://metacademy.org/graphs/concepts/recurrent_neural_networks
 %
 PROPOSITIONAL RESOLUTION: Resolution is an inference rule for logical systems -- in this case, for propositional logic. It is complete, in that if a set of propositional sentences is unsatisfiable, one can prove that using resolution. It is the basis for many powerful automated theorem provers.
+https://metacademy.org/graphs/concepts/propositional_resolution
 %
 GAUSSIAN MRFS: Gaussian Markov random fields (MRFs) are MRFs where the variables are all jointly Gaussian. The graph structure is reflected in the sparsity pattern of the precision matrix.
+https://metacademy.org/graphs/concepts/gaussian_mrfs
 %
 CHINESE RESTAURANT FRANCHISE: The Chinese Restaurant Franchise (CRF) is the predictive process for a hierarchical partitioning (clustering) of grouped data -- it is a generalization of the Chinese Restaurant Process. The CRF can be used to specify a nonparametric distribution on a mixture of mixtures: each grouping of data is a draw from a mixture model, where the mixture components are shared among different groups.
+https://metacademy.org/graphs/concepts/chinese_restaurant_franchise
 %
 COVARIANCE: The covariance of two random variables is a measure of their relatedness. It is closely related to the correlation coefficient, but is more commonly used in probability theory because it has nice mathematical properties.
+https://metacademy.org/graphs/concepts/covariance
 %
 GAUSSIAN PROCESS CLASSIFICATION: Gaussian process classification is a Bayesian model for nonparametric classification. The data points have associated latent variables which are drawn from a GP prior, and the labels are modeled as stochastic functions of the latent variables.
+https://metacademy.org/graphs/concepts/gaussian_process_classification
 %
 GENERALIZATION: When we fit a statistical model, we are interested in generalizing, i.e. making good predictions on data we haven't seen yet. We can fail at this in two ways: by underfitting (missing important structure in the data), or by overfitting (where the model is too sensitive to idiosyncrasies in the data). We can measure the generalization error of a model by training it on a ``training set'' and then evaluating it on a separate ``test set.'' Understanding the tradeoffs of model fit vs. complexity and how to measure generalization is key to getting any machine learning algorithm to work in practice.
+https://metacademy.org/graphs/concepts/generalization
 %
 LOOPY BELIEF PROPAGATION: The sum-product and max-product algorithms give exact answers for tree graphical models, but if we apply the same update rules on a general graph, it often gives pretty reasonable results. This is known as loopy belief propagation, and it is a widely used approximate inference algorithm in coding theory and low level vision.
+https://metacademy.org/graphs/concepts/loopy_belief_propagation
 %
 VECTORS: A vector is is a fundamental mathematical structure that is characterized by both a direction (ordering) and a magnitude. For instance, wind has both a direction (North, South-West, etc) and a magnitude (10 km/hour) and could be represented as a vector (10 km/hour South-West). A point in Euclidean space is often represented as a vector of its coordinates and is the most common type of vector encountered. More generally, a vector is an element of a vector space -- a set that is closed under scalar multiplication and vector addition. [additional note: a vector is a very general entity that takes on many forms depending on its context, for instance, in certain vector spaces a vector could be a function such as f(x) = sin(x)]
+https://metacademy.org/graphs/concepts/vectors
 %
 BAYES NET PARAMETER LEARNING: The parameters of a Bayes net can be estimated using maximum likelihood. In the most general parameterization, when the data are fully observed, the ML estimation problem decomposes into independent subproblems associated with each CPT.
+https://metacademy.org/graphs/concepts/bayes_net_parameter_learning
 %
 ISOMAP: The parameters of a Bayes net can be estimated using maximum likelihood. In the most general parameterization, when the data are fully observed, the ML estimation problem decomposes into independent subproblems associated with each CPT.
+https://metacademy.org/graphs/concepts/isomap
 %
 LINEAR TRANSFORMATIONS AS MATRICES: Linear transformations from one vector space to another can be represented as matrices if a basis is given for each space. Common examples include projections, reflections, rotations, and scaling. Linear combinations, compositions and inverses of transformations can be analyzed in terms of matrix operations.
+https://metacademy.org/graphs/concepts/linear_transformations_as_matrices
 %
 SOFT MARGIN SVM: The standard SVM objective function, which maximizes the margin, only makes sense when the training set is linearly separable. The soft margin SVM gives more flexibility by allowing some of the training points to be misclassified. In addition to handling non-separable training sets, it also can be more robust to outliers or mislabeled data.
+https://metacademy.org/graphs/concepts/soft_margin_svm
 %
 GIBBS SAMPLING: Gibbs sampling is a Markov Chain Monte Carlo (MCMC) algorithm where each random variable is iteratively resampled from its conditional distribution given the remaining variables. It's a simple and often highly effective approach for performing posterior inference in probabilistic models.
+https://metacademy.org/graphs/concepts/gibbs_sampling
 %
 STRUCTURED MEAN FIELD: The naive mean field approximation assumes a fully factorized approximating distribution, which can be inaccurate if variables are tightly coupled. Structured mean field instead assumes the distribution factorizes into a product of tractable distributions, such as trees or chains.
+https://metacademy.org/graphs/concepts/structured_mean_field
 %
 JEFFREYS PRIOR: The Jeffreys prior is a kind of uninformative prior defined in terms of Fisher information, and motivated in terms of transformation invariance.
+https://metacademy.org/graphs/concepts/jeffreys_prior
 %
 FUNCTIONS AND RELATIONS AS SETS: Ordered pairs, relations, and functions can all be defined in terms of sets. This is part of why set theory is such a powerful framework in the foundations of mathematics.
+https://metacademy.org/graphs/concepts/functions_and_relations_as_sets
 %
 LINEAR SYSTEMS AS MATRICES: We can represent systems of linear equations in terms of matrices and vectors. This allows us to analyze and solve them using the tools of linear algebra.
+https://metacademy.org/graphs/concepts/linear_systems_as_matrices
 %
 BASIS FUNCTION EXPANSIONS: A basis function expansion augments/replaces the attributes of a dataset with transformations of these attributes. For instance, given an input attribute X, a basis function expansion could map this attribute to three features: 1, X, X^2---a "polynomial basis." This mapping allows various learning algorithms and statistical procedures to capture nonlinear trends in the data while still using linear models to analyze these transformed attributes. For instance, using the polynomial basis functions with linear regression allows linear regression to find polynomial (nonlinear) trends in the data; this is commonly called "polynomial regression." The process of selecting the particular mapping (basis functions) is typically referred to as "feature engineering."
+https://metacademy.org/graphs/concepts/basis_function_expansions
 %
 ANNOTATED EXAMPLE: # a 2-3 sentence summary of what the concept is and what it is used for
 This concept provides an annotated example of metacademy's current file format. User's may disagree with using a flat-file format, indeed we realize this is not a perfect solution, but it has allowed us to make easy schema changes during the initial development stages, as well as easily use a VCS to track content changes.
+https://metacademy.org/graphs/concepts/ANNOTATED_EXAMPLE
 %
 GODEL'S INCOMPLETENESS THEOREMS: Godel's Incompleteness Theorems are fundamental results showing the limitations of formal mathematics. The First Incompleteness Theorem shows that in any consistent logical system which includes arithmetic, some statements cannot be proved or disproved. Equivalently, the set of true statements about the natural numbers is undecidable. The Second Incompleteness Theorem states that no formal system which includes arithmetic can prove its own consistency, or that of a more powerful theory.
+https://metacademy.org/graphs/concepts/godels_incompleteness_theorems
 %
 MAXIMUM LIKELIHOOD: Maximum likelihood is a general and powerful technique for learning statistical models, i.e. fitting the parameters to data. The maximum likelihood parameters are the ones under which the observed data has the highest probability. It is widely used in practice, and techniques such as Bayesian parameter estimation are closely related to maximum likelihood.
+https://metacademy.org/graphs/concepts/maximum_likelihood
 %
 BACKPROPAGATION: Backpropagation is the standard algorithm for training supervised feed-forward neural nets. More precisely, it isn't actually a learning algorithm, but a way of computing the gradient of the loss function with respect to the network parameters. Mathematically, it's just an instance of the chain rule for derivatives, but it has an intuitive interpretation in terms of passing messages between the units.
+https://metacademy.org/graphs/concepts/backpropagation
 %
 CHURCH-TURING THESIS: The Church-Turing thesis is the hypothesis that any function which can be computed (by any deterministic procedure) can be computed by a Turing machine. Equivalently, it holds that a function is recursive if and only if it is computable. While this thesis is not a precise mathematical statement, and therefore cannot be proved, it is almost universally held to be true.
+https://metacademy.org/graphs/concepts/church_turing_thesis
 %
 PROBABILISTIC MATRIX FACTORIZATION: The Church-Turing thesis is the hypothesis that any function which can be computed (by any deterministic procedure) can be computed by a Turing machine. Equivalently, it holds that a function is recursive if and only if it is computable. While this thesis is not a precise mathematical statement, and therefore cannot be proved, it is almost universally held to be true.
+https://metacademy.org/graphs/concepts/probabilistic_matrix_factorization
 %
 CUMULATIVE DISTRIBUTION FUNCTION: The cumulative distribution function (CDF) of a random variable X is the function F, where F(a) is the probability that X <= a. CDFs are a convenient representation because they apply to both discrete and continuous random variables, and they can simplify many calculations.
+https://metacademy.org/graphs/concepts/cumulative_distribution_function
 %
 GAUSSIAN VARIABLE ELIMINATION: Marginalization in Gaussian MRFs can be performed in cubic time by inverting a matrix, but this is too slow for some applications. If the model has the right structure, variable elimination can result in a big speedup.
+https://metacademy.org/graphs/concepts/gaussian_variable_elimination
 %
 VARIATIONAL BAYES: Bayesian parameter estimation often results in an intractable posterior over model parameters. Variational Bayes is an application of variational inference (in particular, mean field) to approximating the marginals over parameters as well as the marginal likelihood.
+https://metacademy.org/graphs/concepts/variational_bayes
 %
 PROOFS IN FIRST-ORDER LOGIC: One can prove statements in first-order logic using a formal deductive calculus. Such a formal proof system is a central tool in the foundations of mathematics, since it serves as a formal model of mathematical reasoning more generally.
+https://metacademy.org/graphs/concepts/proofs_in_first_order_logic
 %
 ASYMPTOTICS OF MAXIMUM LIKELIHOOD: Under certain regularity conditions, the maximum likelihood estimator is consistent, i.e. it asymptotically approaches the true value. Its sampling distribution (when rescaled appropriately) approaches a normal distribution whose variance is determined by the Fisher information. Because of the Cramer-Rao bound, this is the best we can do. The asymptotic analysis is useful for constructing confidence intervals for parameter estimates.
+https://metacademy.org/graphs/concepts/asymptotics_of_maximum_likelihood
 %
 FORWARD-BACKWARD ALGORITHM: The forward-backward algorithm is an algorithm for computing posterior marginals in a hidden Markov model (HMM). It is based on dynamic programming, and has linear complexity in the length of the sequence. It is used as a component of several other algorithms, such as the Baum_Welch algorithm and block Gibbs sampling in factorial HMMs.
+https://metacademy.org/graphs/concepts/forward_backward_algorithm
 %
 CONDITIONAL INDEPENDENCE: Two random variables X and Y are conditionally independent given a random variable Z if they are independent in the conditional distribution given Z. Conditional independence is central notion in probabilistic modeling, because a model's conditional independence assumptions often lead to tractable algorithms for inference and learning in that model.
+https://metacademy.org/graphs/concepts/conditional_independence
 %
 INTERPRETATIONS BETWEEN THEORIES: Somtimes one mathematical theory T1 (e.g. set theory) is powerful enough to define the objects in and derive all the theorems of another theory T0 (e.g. Peano arithmetic). An interpretation from T0 into T1 is a systematic way of translating statements in T0 into the corresponding statements in T1.
+https://metacademy.org/graphs/concepts/interpretations_between_theories
 %
 FISHER INFORMATION: Somtimes one mathematical theory T1 (e.g. set theory) is powerful enough to define the objects in and derive all the theorems of another theory T0 (e.g. Peano arithmetic). An interpretation from T0 into T1 is a systematic way of translating statements in T0 into the corresponding statements in T1.
+https://metacademy.org/graphs/concepts/fisher_information
 %
 GRADIENT: The gradient of a function gives the direction of maximum increase. Its entries are given by the partial derivatives of the function. It is widely used in optimization.
+https://metacademy.org/graphs/concepts/gradient
 %
 LAGRANGE MULTIPLIERS: Lagrange multipliers are a tool for solving optimization problems with equality or inequality constraints. In particular, some linear combination of the gradients of the constraints must match the gradient of the function. Lagrange multipliers are a key idea behind Lagrange duality, a central concept in convex optimization.
+https://metacademy.org/graphs/concepts/lagrange_multipliers
 %
 HIDDEN MARKOV MODELS: Hidden Markov models (HMMs) are a kind of probabilistic model widely used in speech and language processing. There is a discrete latent state which evolves over time as a Markov chain, and the current observations depend stochastically on the current latent state. HMMs are popular because they support efficient exact inference algorithms.
+https://metacademy.org/graphs/concepts/hidden_markov_models
 %
 PROBABILISTIC LATENT SEMANTIC ANALYSIS: Probabilistic Latent Semantic Analysis (pLSA), also known as probabilistic Latent Semantic Indexing (pLSI), is a matrix decomposition technique for binary and count data, where one component of the data is conditionally independent of the other component given some unobserved factor. pLSA is most commonly used for document modeling, where the count data is the number of times a term appears in each document (forming an observed term by document count matrix), and the factors are interpreted as the latent/unobserved topics.
+https://metacademy.org/graphs/concepts/probabilistic_lsa
 %
 SEQUENTIAL MONTE CARLO: Sequential Monte Carlo is a general framework for Monte Carlo algorithms which involve sampling from a sequence of distributions. It encompasses sequential importance sampling, particle filters, and annealed importance sampling as special cases.
+https://metacademy.org/graphs/concepts/sequential_monte_carlo
 %
 VECTOR FIELDS: A vector field is a function associating a vector with each point. Common examples include flow fields, force fields, and gradients of functions.
+https://metacademy.org/graphs/concepts/vector_fields
 %
 CONVERTING BETWEEN GRAPHICAL MODELS: Bayes nets and MRFs are two frameworks for specifying factorization and conditional independence structure in probabilistic models. There are transformations which convert from one graphical model formalism to the other. However, sometimes these transformations must lose precision, because there are sets of independencies which can be represented as Bayes nets but not MRFs, and vice versa.
+https://metacademy.org/graphs/concepts/converting_between_graphical_models
 %
 NP COMPLEXITY CLASS: NP, or "nondeterministic polynomial," is the complexity class of problems with "polynomial time verifiers." I.e., if the problem has a solution, it must be possible to verify the solution in polynomial time, even if finding the solution is much harder. Equivalently, it is the class of problems which can be solved efficiently by nondeterministic Turing machines. The "P vs. NP" question, whether all NP problems can be solved in worst-case polynomial time, is the central question in computational complexity theory.
+https://metacademy.org/graphs/concepts/np_complexity_class
 %
 LEARNING GP HYPERPARAMETERS: In order to apply Gaussian processes in practice, it is necessary to fit the hyperparameters of the model, such as the lengthscale and variance of a squared-exp kernel. Marginal likelihood is one commonly used criterion for doing so.
+https://metacademy.org/graphs/concepts/learning_gp_hyperparameters
 %
 RESTRICTED BOLTZMANN MACHINES: Restricted Boltzmann machines (RBMs) are a type of undirected graphical model typically used for learning binary feature representations. The structure consists of a bipartite graph with a layer of visible units to represent the inputs and a layer of hidden units to represent more abstract features. Training is intractable, but approximations such as contrastive divergence work well in practice. RBMs are a building block of many models in deep learning.
+https://metacademy.org/graphs/concepts/restricted_boltzmann_machines
 %
 CRP CLUSTERING: The predictive rule for Chinese Restaurant Process (CRP) can be used to define an "infinite-capacity" prior distribution on the clusters in a clustering model. The most common clustering model that uses the CRP is an unbounded analogue to a Gaussian mixture model, where the "table assignments" from the CRP determine the mixture component assignments for each data point.
+https://metacademy.org/graphs/concepts/crp_clustering
 %
 KERNEL RIDGE REGRESSION: The predictive rule for Chinese Restaurant Process (CRP) can be used to define an "infinite-capacity" prior distribution on the clusters in a clustering model. The most common clustering model that uses the CRP is an unbounded analogue to a Gaussian mixture model, where the "table assignments" from the CRP determine the mixture component assignments for each data point.
+https://metacademy.org/graphs/concepts/kernel_ridge_regression
 %
 HEAVY-TAILED DISTRIBUTIONS: The predictive rule for Chinese Restaurant Process (CRP) can be used to define an "infinite-capacity" prior distribution on the clusters in a clustering model. The most common clustering model that uses the CRP is an unbounded analogue to a Gaussian mixture model, where the "table assignments" from the CRP determine the mixture component assignments for each data point.
+https://metacademy.org/graphs/concepts/heavy_tailed_distributions
 %
 CROSS PRODUCT: The cross product is an operation which takes to vectors and returns another vector orthogonal to both. It is commonly used to answer geometric questions involving points, lines, and planes, and to compute volumes.
+https://metacademy.org/graphs/concepts/cross_product
 %
 GRADIENT DESCENT: Gradient descent, also known as steepest descent, is an iterative optimization algorithm for finding a local minimum of differentiable functions. At each iteration, gradient descent operates by moving the current solution in the direction of the negative gradient of the function (the direction of "steepest descent").
+https://metacademy.org/graphs/concepts/gradient_descent
 %
 VARIATIONAL INFERENCE AND EXPONENTIAL FAMILIES: Variational inference algorithms based on mean field turn out to have especially nice forms in exponential family models with appropriate conjugate structure.
+https://metacademy.org/graphs/concepts/variational_exponential_family
 %
 UNIONS OF EVENTS: It is possible to compute or bound the probability of a union of two events in terms of the probabilities of each one separately and of their intersection. The formula can be generalized to unions of more than two events.
+https://metacademy.org/graphs/concepts/unions_of_events
 %
 GAUSSIAN PROCESS REGRESSION: Gaussian process regression is a Bayesian model for nonparametric regression. (That is, nonparametric in the sense that the complexity of the regression function grows with the amount of data.) The model places a prior directly on the output values without reference to an underlying parametric model.
+https://metacademy.org/graphs/concepts/gaussian_process_regression
 %
 BIAS-VARIANCE DECOMPOSITION: The bias-variance decomposition (often referred to as the bias-variance tradeoff) is a frequentist analysis of the generalization capability of an estimator, i.e. a learning algorithm.
+https://metacademy.org/graphs/concepts/bias_variance_decomposition
 %
 BAGGING: Bagging is a technique for reducing the variance of a learning algorithm by averaging the predictions obtained from random resamplings of the training data. It can improve the performance of unstable algorithms such as decision trees.
+https://metacademy.org/graphs/concepts/bagging
 %
 VARIATIONAL INFERENCE AND CONVEX DUALITY: Bagging is a technique for reducing the variance of a learning algorithm by averaging the predictions obtained from random resamplings of the training data. It can improve the performance of unstable algorithms such as decision trees.
+https://metacademy.org/graphs/concepts/variational_inference_convex_duality
 %
 PITMAN-YOR PROCESS: Bagging is a technique for reducing the variance of a learning algorithm by averaging the predictions obtained from random resamplings of the training data. It can improve the performance of unstable algorithms such as decision trees.
+https://metacademy.org/graphs/concepts/pitman_yor_process
 %
 LINEAR REGRESSION AS MAXIMUM LIKELIHOOD: One way to solve a standard linear regression problem, y=w*x, is to assume the likelihood of the observed y, p(y; w*x, sigma^2) is Gaussian. This assumption means that we believe the observed values of y are a deterministic function of w*x plus some random Gaussian noise: y = w*x + e, where e is random Gaussian noise. If we assume a known sigma, the maximum likelihood estimator for w is obtained by minimizing the sum-of-squares error, Sum[(y-w*x)^2] for all y and x pairs, which has a closed form solution.
+https://metacademy.org/graphs/concepts/linear_regression_as_maximum_likelihood
 %
 THE BOOTSTRAP: The bootstrap is a Monte Carlo technique for estimating variances or confidence intervals of statistical estimators. It uses the empirical distribution as a proxy for the true distribution, and measures the accuracy of the estimator on datasets resampled from the empirical distribution. It is widely applicable and doesn't require assuming a parametric form for the true distribution.
+https://metacademy.org/graphs/concepts/bootstrap
 %
 COMPUTING MATRIX INVERSES: Matrix inverses can be computed using Gaussian elimination.
+https://metacademy.org/graphs/concepts/computing_matrix_inverses
 %
 MULTIVARIATE GAUSSIAN DISTRIBUTION: The multivariate Gaussian distribution is a generalization of the Gaussian distribution to higher dimensions. The parameters of an n-dimension multivariate Gaussian distribution are an n-dimensional mean vector and an n-by-n dimensional covariance matrix.
+https://metacademy.org/graphs/concepts/multivariate_gaussian_distribution
 %
 HIERARCHICAL DIRICHLET PROCESS: The Hierarchical Dirichlet Process (HDPs) is a stochastic process that can be used to define a nonparametric distribution on a mixture of mixtures (or admixture) model. That is, each grouping of data is a draw from a mixture model, and the mixture components are shared among the different groups. Using a hierarchy of Dirichlet processes allows the number of mixture components to be inferred from the data. HDPs are most commonly used in topic modeling, where the top mixture corresponds to the global set of topics shared among the entire corpus (all documents) and the secondary mixture corresponds to the topic mixture for a given document.
+https://metacademy.org/graphs/concepts/hierarchical_dirichlet_process
 %
 COVARIANCE MATRICES: A covariance matrix generalizes the idea of variance to multiple dimensions, where the i-th j-th element in the covariance matrix is the covariance between the i-th and j-th random variables. Covariance matrices are common throughout both statistics and machine learning and often arise when dealing with multivariate distributions.
+https://metacademy.org/graphs/concepts/covariance_matrices
 %
 WEAK LAW OF LARGE NUMBERS: Roughly, the laws of large numbers state that if a random variable is sampled many times, the average of all the values approaches the expectation. In particular, the weak law states that the probability of the average of n trials differing by more than some value epsilon goes to zero as n goes to infinity. Unlike the strong law, it only requires that the variables be uncorrelated, not necessarily independent.
+https://metacademy.org/graphs/concepts/weak_law_of_large_numbers
 %
 BETA DISTRIBUTION: The beta distribution is a probability distribution over the unit interval. It is most commonly used in Bayesian statistics as the conjugate prior for the Bernoulli distribution.
+https://metacademy.org/graphs/concepts/beta_distribution
 %
 PROPOSITIONAL LOGIC: Propositional logic is a logical formalism where the variables correspond to atomic sentences which are either true or false. Formulas are constructed using the connectives AND, OR, NOT, and IMPLIES. The semantics can be defined in terms of "truth tables," or equivalently boolean functions.
+https://metacademy.org/graphs/concepts/propositional_logic
 %
 VON MISES DISTRIBUTION: Propositional logic is a logical formalism where the variables correspond to atomic sentences which are either true or false. Formulas are constructed using the connectives AND, OR, NOT, and IMPLIES. The semantics can be defined in terms of "truth tables," or equivalently boolean functions.
+https://metacademy.org/graphs/concepts/von_mises_distribution
 %
 FOUR FUNDAMENTAL SUBSPACES: The four fundamental subspaces of a matrix A are the column space, nullspace, row space, and left nullspace. The bases of all four spaces can be obtained using Gaussian elimination, and certain of them are orthogonal to one another. There are close relationships between the dimensions of all four spaces, and the dimensions of the row and column spaces both equal the rank of A.
+https://metacademy.org/graphs/concepts/four_fundamental_subspaces
 %
 PULLBACK: Pullback is a mathematical operator which represents functions or differential forms on one space in terms of the corresponding object on another space. They are used to define surface integrals of differential forms.
+https://metacademy.org/graphs/concepts/pullback
 %
 GP CLASSIFICATION WITH THE LAPLACE APPROXIMATION: Unlike with GP regression, there is no closed-form solution to GP classification. The most basic method for approximating it is to use the Laplace approximation, thereby formulating it as an optimization problem.
+https://metacademy.org/graphs/concepts/gp_classification_laplace
 %
 BAUM-WELCH ALGORITHM: The Baum-Welch algorithm is an algorithm for maximum likelihood learning in hidden Markov models (HMMs). It is a special case of expectation-maximization (EM), and alternates between inferring the posterior marginals and maximizing the expected log-likelihood given those posterior marginals.
+https://metacademy.org/graphs/concepts/baum_welch_algorithm
 %
 UNDEFINABILITY OF TRUTH: Tarski's Theorem states that no first-order logical theory has a predicate defining the Godel numbers of statements which are true of the natural numbers. In other words, a first-order theory which includes arithmetic can't define its own truth predicate. This is a fundamental limitation on mathematics, because it implies no formal system is powerful enough to define its own semantics.
+https://metacademy.org/graphs/concepts/undefinability_of_truth
 %
 BAYESIAN LINEAR REGRESSION: By interpreting linear regression as a Bayesian model, we can automatically infer the prior variance and the noise variance, and make calibrated predictions. Bayesian linear regression is a useful component in fancier probabilistic models.
+https://metacademy.org/graphs/concepts/bayesian_linear_regression
 %
 KALMAN FILTER DERIVATION: Mathematical derivation of the Kalman filter.
+https://metacademy.org/graphs/concepts/kalman_filter_derivation
 %
 RIEMANN INTEGRAL: The Riemann integral is a mathematically precise formulation of multiple integrals as sums over increasingly fine rectangular regions. Fubini's theorem shows it is equivalent to the iterated integral, which often gives a convenient way to compute it.
+https://metacademy.org/graphs/concepts/riemann_integral
 %
 FACTOR GRAPHS: Markov random fields often can't reflect the full conditional independence structure of a probabilistic model. For instance, they can't encode whether the variables in a clique have a fully general interaction, or merely pairwise interactions. Factor graphs are a more fine-grained representation of Boltzmann distributions where the factors are shown explicitly in the graph.
+https://metacademy.org/graphs/concepts/factor_graphs
 %
 PEANO AXIOMS: The Peano axioms are a set of axioms, either in first- or second-order logic, for the system of natural numbers. The axioms define a successor operation and the principle of induction, and in some versions, addition, multiplication, and ordering as well. The Peano axioms serve as a formal model for number theory.
+https://metacademy.org/graphs/concepts/peano_axioms
 %
 F MEASURE: The F measure (F1 score or F score) is a measure of a test's accuracy and is defined as the weighted harmonic mean of the precision and recall of the test.
+https://metacademy.org/graphs/concepts/f_measure
 %
 EXPECTIMAX SEARCH: Expectimax search is a search/decision-making algorithm that maximizes the average (expected) reward. It is typically applied to trees that have stochastic nodes, where the outcome of an action is uncertain.
+https://metacademy.org/graphs/concepts/expectimax_search
 %
 PRINCIPAL COMPONENT ANALYSIS (PROOF): The proof that principal component analysis (PCA) finds the subspace maximizing the variance and minimizing the reconstruction error.
+https://metacademy.org/graphs/concepts/pca_proof
 %
 CONSTRUCTING THE REALS: The real numbers can be explicitly constructed as sets of rational numbers using the Dedekind cut construction.
+https://metacademy.org/graphs/concepts/constructing_the_reals
 %
 UNITARY MATRICES: Unitary matrices are the complex analogues of orthogonal matrices.
+https://metacademy.org/graphs/concepts/unitary_matrices
 %
 REGISTER MACHINES: Register machines are a model of computation involving a set of registers which can hold arbitrarily large positive integers. Despite the model's simplicity, it is Turing complete. The simplicity of the definition is helpful in computability theory, because reductions from counter machines can be easier than reductions from Turing machines.
+https://metacademy.org/graphs/concepts/register_machines
 %
 EARLY STOPPING: Early stopping is a technique for controlling overfitting in machine learning models, especially neural networks, by stopping training before the weights have converged. Often we stop when the performance has stopped improving on a held-out validation set.
+https://metacademy.org/graphs/concepts/early_stopping
 %
 VARIATIONAL LINEAR REGRESSION: Variational linear regression is an illustrative example of variational Bayes.
+https://metacademy.org/graphs/concepts/variational_linear_regression
 %
 KALMAN SMOOTHER: Kalman smoothing is a posterior inference algorithm for linear dynamical systems (LDSs). It computes posterior marginals for all time steps conditioned on all of the observations. It is used in parameter learning for LDSs.
+https://metacademy.org/graphs/concepts/kalman_smoother
 %
 REGULARIZATION: Kalman smoothing is a posterior inference algorithm for linear dynamical systems (LDSs). It computes posterior marginals for all time steps conditioned on all of the observations. It is used in parameter learning for LDSs.
+https://metacademy.org/graphs/concepts/regularization
 %
 SET OPERATIONS: Basic operations on sets include intersection, union, and difference. The power set of a set A is the set of all subsets of A.
+https://metacademy.org/graphs/concepts/set_operations
 %
 LOSS FUNCTION: A loss function or cost function is a function that maps the outcome of a decision to a real-valued cost associated with that outcome. Loss functions are common in machine learning, information theory, statistics, and mathematical optimization, and help guide decision making under uncertainty.
+https://metacademy.org/graphs/concepts/loss_function
 %
 SECOND DERIVATIVE TEST: In an optimization problem, a critical point (where the partial derivatives are zero) may be a local minimum or maximum, or a saddle point. The second derivative test is a way of testing optimality: a point is a (local) minimum if the Hessian matrix is positive definite.
+https://metacademy.org/graphs/concepts/second_derivative_test
 %
 NONNEGATIVE MATRIX FACTORIZATION: In an optimization problem, a critical point (where the partial derivatives are zero) may be a local minimum or maximum, or a saddle point. The second derivative test is a way of testing optimality: a point is a (local) minimum if the Hessian matrix is positive definite.
+https://metacademy.org/graphs/concepts/nonnegative_matrix_factorization
 %
 INCOMPLETENESS OF SET THEORY: Godel's Incompleteness Theorems apply to any formal deductive system which includes arithmetic. Since the natural numbers can be defined using set theory, the theorems apply to set theory as well.
+https://metacademy.org/graphs/concepts/incompleteness_of_set_theory
 %
 COMPUTATIONS ON MULTIVARIATE GAUSSIANS: Multivariate Gaussians are widely used in computational sciences because many useful operations can be performed efficiently. Marginalization is easy: we simply pull the relevant rows and columns of the mean and covariance. Conditioning can be done with a matrix inversion.
+https://metacademy.org/graphs/concepts/computations_on_multivariate_gaussians
 %
 VITERBI ALGORITHM: The Viterbi algorithm is an algorithm for finding the most likely state sequence in the posterior for an HMM. It is based on dynamic programming and has linear time complexity in the length of the sequence.
+https://metacademy.org/graphs/concepts/viterbi_algorithm
 %
 BAYES NET STRUCTURE LEARNING: If the structure of a Bayes net (in particular, the set of edges) is not known, we may wish to learn it from data. This requires trading off the degree of fit with the complexity of the network. The Bayesian score gives a simple and efficient way of evaluating Bayes net structures.
+https://metacademy.org/graphs/concepts/bayes_net_structure_learning
 %
 COMPUTING THE NULLSPACE: The nullspace of a matrix can be computed using Gaussian elimination.
+https://metacademy.org/graphs/concepts/computing_the_nullspace
 %
 LEARNING BAYES NET PARAMETERS WITH MISSING DATA: There is no closed-form solution for the maximum likelihood parameters of a Bayes net when some of the variables are unobserved. However, it is possible to apply the EM algorithm, where the E step involves computing marginals and the M step involves computing the maximum likelihood parameters with fully observed data.
+https://metacademy.org/graphs/concepts/learning_bayes_nets_missing_data
 %
 CONVEX SETS: A set S in R^d is convex if for any two points x and y in S, the line segment connecting x and y is also contained in S. Convex sets are part of the definition of convex optimization problems, a very general class of optimization problems for which the optimal solution can often be found.
+https://metacademy.org/graphs/concepts/convex_sets
 %
 GAMMA DISTRIBUTION: The gamma distribution is a continuous distribution which gives the waiting time for n events to occur, when each event is equally likely to happen at any point in time. It is also commonly used in Bayesian statistics as a prior for scale variables.
+https://metacademy.org/graphs/concepts/gamma_distribution
 %
 CHINESE RESTAURANT PROCESS: The Chinese Restaurant Process (CRP) is a predictive rule that descripes a probability distribution on an unbounded partition (clustering). The CRP is as follows: imagine a chinese restaurant with a countably infinite number of tables, the first customer (datum) walks into a restaurant and sits at a table (cluster), the second customer walks into the restaurant and sits at the first customers table with probability 1/2 and chooses a new table with probability 1/2, the nth customer chooses a previous table with probability proportional to the number of customers at that table and chooses his own table with the remaining probability. Defining the probability from this predictive rule yields a probability distribution on an unbounded clustering.
+https://metacademy.org/graphs/concepts/chinese_restaurant_process
 %
 ANNEALED IMPORTANCE SAMPLING: Annealed importance sampling (AIS) is a Monte Carlo algorithm based on sampling from a sequence of distributions which interpolate between a tractable initial distribution and the intractable target distribution. It returns a set of weighted samples, and in the limit of infinitely many intermediate distributions, the variance of the weights approahces zero. The most common use is in estimating partition functions.
+https://metacademy.org/graphs/concepts/annealed_importance_sampling
 %
 CONSTRUCTING KERNELS: The kernel trick allows us to reformulate linear machine learning models in terms of a kernel function which defines a notion of similarity between data points. A few simple rules allow us to construct kernels which capture a wide variety of similarity functions.
+https://metacademy.org/graphs/concepts/constructing_kernels
 %
 INFERENCE IN MRFS: One reason we build graphical models is so we can perform inference, i.e. ask questions about the distribution. The most common queries include: (1) finding the marginal distribution of one or several nodes, (2) finding the most likely joint assignment, or (3) computing the partition function. Items (1) and (3) are closely related. While exact inference is intractable in the general case, there are powerful approximate inference algorithms, as well as interesting classes of tractable models.
+https://metacademy.org/graphs/concepts/inference_in_mrfs
 %
 MAP PARAMETER ESTIMATION: In Bayesian parameter estimation, unless the prior is specially chosen, often there's no analytical way to integrate out the model parameters. In these cases, maximum a posteriori (MAP) estimation is a common approximation, where we choose the parameters which maximize the posterior. Although this is computationally convenient, it has the drawbacks that it's not invariant to reparameterization, and that the MAP estimate may not be typical of the posterior.
+https://metacademy.org/graphs/concepts/map_parameter_estimation
 %
 BAYESIAN PARAMETER ESTIMATION: GAUSSIAN DISTRIBUTION: Using the Bayesian framework, we can infer the mean parameter of a Gaussian distribution, the scale parameter, or both. Since Gaussians are widely used in probabilistic modeling, the computations that go into this are common motifs in Bayesian machine learning more generally.
+https://metacademy.org/graphs/concepts/bayesian_parameter_estimation_gaussian
 %
 ROOTS OF POLYNOMIALS: Using the Bayesian framework, we can infer the mean parameter of a Gaussian distribution, the scale parameter, or both. Since Gaussians are widely used in probabilistic modeling, the computations that go into this are common motifs in Bayesian machine learning more generally.
+https://metacademy.org/graphs/concepts/roots_of_polynomials
 %
 BOLTZMANN MACHINES: Boltzmann machines are a kind of probabilistic neural network used in density modeling. They can be viewed as an MRF with only pairwise connections between units, and where the units are typically binary-valued. Restricted Boltzmann machines (RBMs) are a widely used special case.
+https://metacademy.org/graphs/concepts/boltzmann_machines
 %
 UNSUPERVISED PRE-TRAINING: Training deep feed-forward neural networks can be difficult because of local optima in the objective function and because complex models are prone to overfitting. Unsupervised pre-training initializes a discriminative neural net from one which was trained using an unsupervised criterion, such as a deep belief network or a deep autoencoder. This method can sometimes help with both the optimization and the overfitting issues.
+https://metacademy.org/graphs/concepts/unsupervised_pre_training
 %
 OPTIMIZATION PROBLEMS: In an optimization problem, one is interested in minimizing or maximizing a function, possibly subject to equality or inequality constraints. The extrema must occur on the boundary of the set, at points which are not differentiable, or at points where the partial derivatives are zero.
+https://metacademy.org/graphs/concepts/optimization_problems
 %
 CHANGE OF BASIS: Sometimes it's convenient to perform computations in a basis other than the standard one. Change of basis matrices can be used to convert vectors and matrices from one basis to another.
+https://metacademy.org/graphs/concepts/change_of_basis
 %
 FEED-FORWARD NEURAL NETS: Feed-forward neural networks are a supervised learning architecture consisting of a set of neuron-like "units," each one of which computes a simple function of its inputs. Because layers of such neurons can be stacked, neural nets are capable of learning complex nonlinear functions of the inputs.
+https://metacademy.org/graphs/concepts/feed_forward_neural_nets
 %
 MATRIX TRANSPOSE: The matrix transpose is an operator which flips a matrix over its diagonal, i.e. it switches the row and column indices of the matrix.
+https://metacademy.org/graphs/concepts/matrix_transpose
 %
 INDEPENDENT COMPONENT ANALYSIS: Independent component analysis (ICA) is a latent variable model where the observations are modeled as linear combinations of latent variables which are usually drawn from a heavy-tailed distribution. Common uses include source separation and sparse dictionary learning.
+https://metacademy.org/graphs/concepts/independent_component_analysis
 %
 AGGLOMERATIVE CLUSTERING: Independent component analysis (ICA) is a latent variable model where the observations are modeled as linear combinations of latent variables which are usually drawn from a heavy-tailed distribution. Common uses include source separation and sparse dictionary learning.
+https://metacademy.org/graphs/concepts/agglomerative_clustering
 %
 CRAMER-RAO BOUND: The Cramer-Rao bound gives the minimum possible variance of an unbiased estimator of the parameters of a probability distribution. It is used to prove the asymptotic efficiency of the maximum likelihood estimator.
+https://metacademy.org/graphs/concepts/cramer_rao_bound
 %
 EXPONENTIAL DISTRIBUTION: The exponential distribution is a continuous distribution whose PDF decays exponentially. It is most commonly used to model the waiting time until an event occurs, where that event is equally likely to happen at any point in time.
+https://metacademy.org/graphs/concepts/exponential_distribution
 %
 INNER PRODUCT: An inner product is a kind of mathematical operator defined on a vector space which generalizes the dot product. It can be used to generalize notions like length, orthogonality, and angles to vector spaces other than the Euclidean one.
+https://metacademy.org/graphs/concepts/inner_product
 %
 DPLL PROCEDURE: The DPLL procedure is a backtracking-based algorithm for solving SAT instances. It is complete, in the sense that it will eventually return a satisfying assignment or prove that none exists.
+https://metacademy.org/graphs/concepts/dpll_procedure
 %
 SLICE SAMPLING: Slice sampling is a method for sampling from a one-dimensional probability distribution by doing Gibbs sampling in an auxiliary variable model. A major virtue is that it doesn't require specifying a step size. For this reason, it's a useful tool for constructing MCMC samplers which don't require tuning step size parameters.
+https://metacademy.org/graphs/concepts/slice_sampling
 %
 LASSO: The Lasso is a form of regularized linear regression. Unlike ridge regression, it puts an L1 penalty on the weights, which encourages sparsity, i.e. it encourages most of the weights to be exactly zero. The general trick of using L1 norms to encourage sparsity is widely used in machine learning.
+https://metacademy.org/graphs/concepts/lasso
 %
 HMM INFERENCE AS BELIEF PROPAGATION: The forward-backward algorithm for computing posterior marginals in an HMM can be viewed as a special case of sum-product belief propagation. Similarly, the Viterbi algorithm for computing the most likely state sequence can be viewed as a special case of max-product belief propagation.
+https://metacademy.org/graphs/concepts/hmm_inference_as_bp
 %
 LEARNING LINEAR DYNAMICAL SYSTEMS: We can perform maximum likelihood estimation for the parameters of a linear dynamical system using the EM algorithm. The E step involves running a Kalman smoother, and the M step involves maximum likelihood inference in multivariate Gaussians.
+https://metacademy.org/graphs/concepts/learning_linear_dynamical_systems
 %
 EVALUATING MULTIPLE INTEGRALS: POLAR COORDINATES: A common trick for computing double integrals is to transform them into a polar coordinate representation. Canonical examples include integrating a Gaussian and computing moments of inertia.
+https://metacademy.org/graphs/concepts/eval_multi_int_polar_coordinates
 %
 GAUSSIAN PROCESSES: Gaussian processes are distributions over functions such that the joint distribution at any finte set of points is a multivariate Gaussian. They are commonly used in probabilistic modeling when we want to put a prior over functions without reference to an underlying parametric representation. Usually they express fairly weak beliefs about the function, such as smoothness, but more structured versions are also possible. The most common use case is nonparametric regression and classification.
+https://metacademy.org/graphs/concepts/gaussian_processes
 %
 BAYESIAN DECISION THEORY: When we use Bayesian parameter estimation techniques, often it's because we want to make a decision. In Bayesian decision theory, we make the choice which minimizes the expected loss under the posterior. When we compute a statistic like the mode or the mean of the predictive distribution, this can be interpreted as the decision theoretic solution under a particular loss function.
+https://metacademy.org/graphs/concepts/bayesian_decision_theory
 %
 METROPOLIS-HASTINGS ALGORITHM: Markov Chain Monte Carlo (MCMC) is a method for approximately sampling from a distribution p by defining a Markov chain which has p as a stationary distribution. Metropolis-Hastings is a very general recipe for finding such a Markov chain: choose a proposal distribution and correct for the bias by stochastically accepting or rejecting the proposal. While the mathematical formalism is very general, there is an art to choosing good proposal distributions.
+https://metacademy.org/graphs/concepts/metropolis_hastings
 %
 ENTROPY: Entropy is a measure of the information content of a random variable, and one of the fundamental quantities of information theory. It determines the minimum expected code length necessary to encode samples of the random variable.
+https://metacademy.org/graphs/concepts/entropy
 %
 FIRST-ORDER RESOLUTION: Resolution is an inference rule for first-order logic which is a key part of many automated theorem provers.
+https://metacademy.org/graphs/concepts/first_order_resolution
 %
 VARIATIONAL LOGISTIC REGRESSION: Variational logistic regression is an illustrative example of variational Bayes. It illustrates the use of a local variational approximation, in particular the Gaussian lower bound on the sigmoid function.
+https://metacademy.org/graphs/concepts/variational_logistic_regression
 %
 POISSON DISTRIBUTION: The Poisson distribution is a discrete probability distribution for the counts of independent random events in a given time interval, e.g. babies born in a hospital in 1 month or lightening strikes in Mexico in 1 week. It is one of the most common discrete distributions used in virtually every scientific and financial field.
+https://metacademy.org/graphs/concepts/poisson_distribution
 %
 LEARNING INVARIANCES IN NEURAL NETS: The human visual system is capable of recognizing objects despite changes in factors such as location, orientation, and lighting. We'd like the representations learned by neural networks to be invariant to at least some of these things as well. There are several different strategies for achieving this, including enforcing invariance in the network architecture, using an appropriate regularization term, or generating randomly perturbed training data.
+https://metacademy.org/graphs/concepts/learning_invariances_in_neural_nets
 %
 CROSS VALIDATION: Cross validation is the process of partitioning an observed dataset into a training dataset and a testing dataset and then performing the statistical analysis on the training dataset (e.g. learning the parameters of a distribution used to describe the data) and then validated using the testing dataset (e.g. measuring how well the learned distribution describes the testing dataset). Following the validation step, a new, untested portion of the training dataset becomes the testing dataset and the previous testing dataset is incorporated into the training dataset. This cycle repeats until all data has been tested. This process is used to test how well a statistical analysis generalizes to new data.
+https://metacademy.org/graphs/concepts/cross_validation
 %
 PROPOSITIONAL SATISFIABILITY: Propositional satisfiability (SAT) is a computational problem where one is given a setence in propositional logic, and one wants to determine if there is a satisfying assignment (an assignment of truth values to all the variables which makes the assignment true). SAT is central to computer science because it is the prototypical NP-complete problem and because SAT solvers underly a lot of automated reasoning systems.
+https://metacademy.org/graphs/concepts/propositional_satisfiability
 %
 K NEAREST NEIGHBORS: K nearest neighbors is a very simple machine learning algorithm which simply averages the labels of the K nearest neighbors in the training set. It is a canonical example of a nonparametric learning algorithm. It has the advantage that it can learn arbitrarily complex functions, but it is especially sensitive to the curse of dimensionality.
+https://metacademy.org/graphs/concepts/k_nearest_neighbors
 %
 JUNCTION TREES: The sum-product algorithm is a way of computing marginals in a tree-structured graphical model. The junction tree algorithm generalizes this to arbitrary graphs by grouping together variables into cliques, such that the cliques form a tree.
+https://metacademy.org/graphs/concepts/junction_trees
 %
 CONSTRUCTING THE INTEGERS: The integers can be constructed from the natural numbers.
+https://metacademy.org/graphs/concepts/constructing_the_integers
 %
 MARKOV RANDOM FIELDS: Markov random fields (MRFs) are a kind of probabilistic model which encodes the model structure as an undirected graph. Two variables are connected by an edge if they directly influence each other. MRFs are useful for domains which can be described in terms of "soft constraints" between variables. MRFs can be equivalently characterized in terms of factorization of the joint distribution or conditional independence properties.
+https://metacademy.org/graphs/concepts/markov_random_fields
 %
 TRANSFORMATION METHOD: The transformation method is a way of sampling from univariate probability distributions by sampling a uniform random variable and inverting the CDF.
+https://metacademy.org/graphs/concepts/transformation_method
 %
 MONTE CARLO ESTIMATION: One way to answer queries about a probability distribution is to simulate from the distribution, a procedure known as Monte Carlo estimation. In particular, we estimate the expected value of some function f with respect to a distribution p by generating samples from p and averaging the values of f over those samples.
+https://metacademy.org/graphs/concepts/monte_carlo_estimation
 %
 CENTRAL LIMIT THEOREM: The Central Limit Theorem states that the sum of a large number of independent, identically distributed random variables is approximately Gaussian. It can be used to approximate the probability that a sum of independent random variables lies within some range, even if the distributions are otherwise hard to work with. This theorem is one of the reasons that Gaussian distributions are so ubiquitous in statistics and probabilistic modeling.
+https://metacademy.org/graphs/concepts/central_limit_theorem
 %
 STRONG LAW OF LARGE NUMBERS: Roughly, the laws of large numbers state that the average of a large number of draws of a random variable approaches the expectation. The strong law states that the probability that the average of the sequence fails to converge to the expectation is zero. This is a strictly stronger statement than the weak law, but requires stronger assumptions.
+https://metacademy.org/graphs/concepts/strong_law_of_large_numbers
 %
 CRAMER'S RULE: Cramer's rule is an explicit formula for the inverse of a matrix in terms of determinants of submatrices. While it is inefficient for large matrices, it is useful for analyzing inverses of small matrices algebraically.
+https://metacademy.org/graphs/concepts/cramers_rule
 %
 UNINFORMATIVE PRIORS: In Bayesian parameter estimation, uninformative priors are a way of making minimal assumptions about the model. They are commonly chosen to be invariant to certain transformations, such as translation or scaling. While uninformative priors are often improper, they can still lead to proper posterior distributions, and thereby be usable in posterior inference.
+https://metacademy.org/graphs/concepts/uninformative_priors
 %
 BAYESIAN MODEL COMPARISON: The framework of Bayesian model comparison evaluates probabilistic models based on the marginal likelihood, or the probability they assign a dataset with all the parameters marginalized out. The marginalization of model parameters implements a sort of "Occam's razor" effect. Marginal likelihoods can also be used to compute a posterior over model classes using Bayes' rule.
+https://metacademy.org/graphs/concepts/bayesian_model_comparison
 %
 WELL ORDERINGS: A total ordering R on a set S is a well ordering if every subset of S has a smallest element. Well orderings are important because one can use a generalization of mathematical induction known as transfinite induction. The canonical example is the ordinal numbers.
+https://metacademy.org/graphs/concepts/well_orderings
 %
 INFORMATION FORM FOR MULTIVARIATE GAUSSIANS: While we normally represent multivariate Gaussians in terms of their mean and covariance, information form is often a useful alternative. The distribution is represented in terms of a quadratic "energy function." This representation is convenient for conditioning, and is the basis for Gaussian Markov random fields.
+https://metacademy.org/graphs/concepts/multivariate_gaussians_information_form
 %
 MIXTURE OF GAUSSIANS MODELS: Mixture of Gaussians is a probabilistic model commonly used for clustering: partitioning a set of data points into a set of clusters, where data points within a cluster are similar to one another.
+https://metacademy.org/graphs/concepts/mixture_of_gaussians
 %
 STRUCTURAL RISK MINIMIZATION: Mixture of Gaussians is a probabilistic model commonly used for clustering: partitioning a set of data points into a set of clusters, where data points within a cluster are similar to one another.
+https://metacademy.org/graphs/concepts/structural_risk_minimization
 %
 MCMC CONVERGENCE: Markov chain Monte Carlo (MCMC) samplers eventually converge to their stationary distribution, but they may take a long time to do so. The "mixing time" of a chain refers to how long a chain must be run in order for one sample to be independent of another. Diagnosing mixing time is important for judging the reliability of estimates obtained from an MCMC algorithm.
+https://metacademy.org/graphs/concepts/mcmc_convergence
 %
 BAYESIAN PCA: By formulating PCA as a Bayesian model, we can auotmatically choose a latent dimensionality by maximizing the (approximate) marginal likelihood of the model.
+https://metacademy.org/graphs/concepts/bayesian_pca
 %
 VC DIMENSION: In statistical learning theory, VC dimension is a measure of the complexity of a continuous hypothesis class (such as linear classifiers). While it often corresponds to the number of parameters in a model, this isn't always the case. There is a general bound on the generalization error of a classifier in terms of its error on a training set and its VC dimension.
+https://metacademy.org/graphs/concepts/vc_dimension
 %
 DETERMINANT: The determinant is a scalar value associated with a square matrix. It is convenient algebraically because it behaves nicely with respect to matrix multiplication, inverses, and transposes, as well as the Gaussian elimination operations. It gives the factor by which volumes are rescaled by the matrix's associated linear transformation. It also equals the product of the eigenvalues.
+https://metacademy.org/graphs/concepts/determinant
 %
 PERCEPTRON ALGORITHM: The perceptron is a simple algorithm for binary classification where the weights are adjusted in the direction of each misclassified example.
+https://metacademy.org/graphs/concepts/perceptron
 %
 ORDER RELATIONS: A relation is an order relation if it is irreflexive, asymmetric, and transitive. An order relation < is a total order if for any A and B, either A < B, B < A, or A = B; otherwise it is a partial order.
+https://metacademy.org/graphs/concepts/order_relations
 %
 PROPOSITIONAL PROOFS: A formal proof is an argument in a formal system where each step is justified by one of a precisely defined set of inference rules. Formal proofs are used as a model for studying mathematics itself, and are used in formal verification. One hopes a proof system is sound, in that each inference rule yields only true statements when its premises are true. A system is complete if all true statements expressible in some logical language can be proved within the system. Various proof systems have been defined for propositional logic which are both sound and complete.
+https://metacademy.org/graphs/concepts/propositional_proofs
 %
 KL DIVERGENCE: KL divergence, roughly speaking, is a measure of the distance between two probability distributions P and Q, and corresponds to the number of extra bits required to encode samples from P using an optimal code for Q. It is not truly a distance function, because it's not symmetric and it doesn't satisfy the triangle inequality. Despite this, it's widely used in information theory and probabilistic inference.
+https://metacademy.org/graphs/concepts/kl_divergence
 %
 SURFACE INTEGRALS: A surface integral is the integral of a function over a surface. Important cases include surface area and flux, where the function is the dot product of the surface normal with a vector field.
+https://metacademy.org/graphs/concepts/surface_integrals
 %
 SPARSE CODING: Sparse coding is a probabilistic model of natural images where each region of an image is represented as a linaer combination of a small number of components drawn from a dictionary. When the model is fit to natural images, the dictionary elements resemble the receptive fields of cells in the primary visual cortex.
+https://metacademy.org/graphs/concepts/sparse_coding
 %
 SAMPLING FROM A GAUSSIAN: The transformation method can't be applied directly to sample from a Gaussian, since there's no closed form for the CDF. However, we can apply it using a simple trick.
+https://metacademy.org/graphs/concepts/sampling_gaussian
 %
 LINEAR LEAST SQUARES: Linear least squares gives a value of x which minimizes the norm of Ax - b. It is well defined even in cases where Ax = b has no solution. It is the basis of linear regression, one of the most widely used methods in statistics.
+https://metacademy.org/graphs/concepts/linear_least_squares
 %
 IBP LINEAR-GAUSSIAN MODEL: The linear-Gaussian IBP model is a simple matrix factorization model, where the model assumes the observed data results from linearly combining a subset of K independent real-valued latent factors: X = Z x A + E, where X is the N x D observed data matrix, Z is the N x K binary latent feature matrix, A is the K x D latent real-valued factor matrix, and E is N x D matrix of iid noise. Using an IBP prior allows the number of latent features, K, to be learned from the data. This model is commonly used for developing new IBP inference techniques.
+https://metacademy.org/graphs/concepts/ibp_linear_gaussian_model
 %
 HAMILTONIAN MONTE CARLO: Hamiltonian Monte Carlo (HMC) is an MCMC algorithm which makes use of gradient information in order to avoid random walks and move more quickly toward regions of high probability. It is based on a discretization of Hamiltonian dynamics, with a Metropolis-Hastings accept/reject step to ensure that it has the right stationary distribution.
+https://metacademy.org/graphs/concepts/hamiltonian_monte_carlo
 %
 KERNEL SVM: The main advantage of the SVM as a linear classifier is that it can be kernelized in order to represent complex nonlinear decision boundaries. Conveniently, since only a (hopefully) sparse subset of the training examples are used, kernels only need to be computed with a small fraction of the training examples. Kernel SVMs are one of the most widely used classifiers in machine learning, because off-the-shelf tools often perform very well.
+https://metacademy.org/graphs/concepts/kernel_svm
 %
 BOOLEAN ALGEBRAS: Boolean algebras are a mathematical structure which shares the algebraic properties of propositional formulas. Canonical examples include propositional formulas and the power set of a set (with set union, intersection, and complement playing the roles of the propositional connectives). Boolean algebras are used in topology, model theory, and social choice theory.
+https://metacademy.org/graphs/concepts/boolean_algebras
 %
 WISHART DISTRIBUTION: The Wishart distribution is a distribution over positive semidefinite matrices. It is most often used as the conjugate prior for the precision matrix of a multivariate Gaussian.
+https://metacademy.org/graphs/concepts/wishart_distribution
 %
 IMPORTANCE SAMPLING: Importance sampling is a way of estimating expectations under an intractable distribution p by sampling from a tractable distribution q and reweighting the samples according to the ratio of the probabilities. While importance sampling has unreasonably large variance when applied naively, it forms the basis for some very effective Monte Carlo estimators.
+https://metacademy.org/graphs/concepts/importance_sampling
 %
 COLLAPSED GIBBS SAMPLING: MCMC samplers can often be improved by marginalizing out a subset of the variables in closed form and performing MCMC over the remaining variables. This is more statistically efficient since each particle can cover a larger part of the distribution, and it can also improve mixing by allowing larger jumps.
+https://metacademy.org/graphs/concepts/collapsed_gibbs_sampling
 %
 COMPLEX VECTORS AND MATRICES: We can define complex vectors and matrices with properties closely analogous to their real-valued analogues. Complex matrices come up when dealing with eigendecompositions of non-symmetric matrices. They are also used in computing the fast Fourier transform.
+https://metacademy.org/graphs/concepts/complex_vectors_and_matrices
 %
 CHOW-LIU TREES: While the problem of learning Bayes net structures is intractable in general, there is a polynomial time algorithm for learning the optimal tree-structured graph under various scoring criteria. In particular, it can be formulated as a maximum weight spanning tree problem. The maximum likelihood trees are known as Chow-Liu trees, after their original inventors.
+https://metacademy.org/graphs/concepts/chow_liu_trees
 %
 BROUWER'S FIXED POINT THEOREM: While the problem of learning Bayes net structures is intractable in general, there is a polynomial time algorithm for learning the optimal tree-structured graph under various scoring criteria. In particular, it can be formulated as a maximum weight spanning tree problem. The maximum likelihood trees are known as Chow-Liu trees, after their original inventors.
+https://metacademy.org/graphs/concepts/brouwers_fixed_point_theorem
 %
 TURING MACHINES: Turing machines are a simple theoretical model of computation involving a head which reads and writes symbols on a tape. Despite its simplicity, if the Church-Turing Thesis is true, then anything which can be computed, can be computed by a Turing machine. They are a fundamental construct in reasoning about the limits of computation.
+https://metacademy.org/graphs/concepts/turing_machines
 %
 HOPFIELD NETWORKS: Hopfield networks are a kind of recurrent neural network which implements an associative memory. The behavior of the network can be modeled in terms of minimizing an energy function.
+https://metacademy.org/graphs/concepts/hopfield_networks
 %
 SUFFICIENT STATISTICS: Sufficient statistics are statistics which summarize all of the information a dataset contains about the parameters of a distribution. The Rao-Blackwell Theorem implies that statistical estimators should depend only on sufficient statistics when they exist.
+https://metacademy.org/graphs/concepts/sufficient_statistics
 %
 LINEAR-GAUSSIAN MODELS: A linear-Gaussian model is a Bayes net where all the variables are Gaussian, and each variable's mean is linear in the values of its parents. They are widely used because they support efficient inference. Linear dynamical systems are an important special case.
+https://metacademy.org/graphs/concepts/linear_gaussian_models
 %
 PARTICLE FILTER: The particle filter is a Monte Carlo algorithm for posterior inference in temporal models. The posterior is approximated with a weighted set of discrete particles. In each step, each particle's state is extended according to a proposal distribution, and its weight is updated based on the likelihood of the evidence. The algorithm is useful in robotics and in visual tracking because it doesn't require storing the entire history.
+https://metacademy.org/graphs/concepts/particle_filter
 %
 CONDITIONAL DISTRIBUTIONS: The conditional distribution of a random variable X given another random variable Y is the distribution of X when Y is observed to take some vaule. While the precise mathematical definition is involved, for discrete and continuous variables, it amounts to dividing the joint PDF or PMF of X and Y by the PDF or PMF of Y.
+https://metacademy.org/graphs/concepts/conditional_distributions
 %
 VARIATIONAL BAYES EM: Variational Bayes EM is the application of variational Bayes to latent variable models. In the approximating distribution, the latent variables and parameters are independent, and often there are additional variational approximations within either the latent variables or the parameters.
+https://metacademy.org/graphs/concepts/variational_bayes_em
 %
 FISHER'S LINEAR DISCRIMINANT: Fisher's linear discriminant is a technique for visualizing high-dimensional data belonging to multiple classes by projecting it onto a low-dimensional subspace. The subspace is chosen to maximize the ratio of between-class to within-class variance.
+https://metacademy.org/graphs/concepts/fishers_linear_discriminant
 %
 GAMMA FUNCTION: The gamma function is a generalization of factorials to real and complex numbers, e.g. 5.25! isn't well defined, but Gamma(5.25) is well defined. The Gamma function is formally defined as an improper integral that converges. It appears in a number of common distributions, e.g. the beta, gamma, and Dirichlet distribution.
+https://metacademy.org/graphs/concepts/gamma_function
 %
 LINE INTEGRALS: The line integral gives a notion of integrating a vector field along a curve. Common uses include computing work done by a force and finding potential functions corresponding to a gradient field.
+https://metacademy.org/graphs/concepts/line_integrals
 %
 CONDITIONAL PROBABILITY: The conditional probability of an event A given another event B is the probability that A occurs if it's known that B occurs. Conditional probability is fundamental to probabilistic modeling, since it gives a way of accounting for observed evidence.
+https://metacademy.org/graphs/concepts/conditional_probability
 %
 LINEAR REGRESSION: CLOSED-FORM SOLUTION: Linear regression has a closed-form solution in terms of basic linear algebra operations. This makes it a useful starting point for understanding many other statistical learning algorithms.
+https://metacademy.org/graphs/concepts/linear_regression_closed_form
 %
 STOKES' THEOREM (THREE DIMENSIONS): Stokes' Theorem is a theorem relating a line integral along the boundary of a surface to the integral of curl over the surface. It can be seen as a three-dimensional generalization of Green's Theorem.
+https://metacademy.org/graphs/concepts/stokes_theorem_three_dimensions
 %
 EQUIVALENCE RELATIONS: A relation is an equivalence relation if it is reflexive, symmetric, and transitive. Equivalence relations can be used to partition a set into equivalence classes. Examples include equality, isomorphism, and graph connectivity.
+https://metacademy.org/graphs/concepts/equivalence_relations
 %
 DEFINING THE CARDINALS: Intuitively, one would like to define cardinal numbers as equivalence classes of sets, but unfortunately, these equivalence classes are too large to be sets. Instead, the cardinal numbers can be defined from the ordinal numbers. This construction requires the Axiom of Choice.
+https://metacademy.org/graphs/concepts/defining_the_cardinals
 %
 COLUMN SPACE AND NULLSPACE: The column space is the subspace spanned by the columns of a matrix A. The nullspace is the set of solutions to Ax = 0. Both subspaces are useful for characterizing the sets of solutions to linear systems.
+https://metacademy.org/graphs/concepts/column_space_and_nullspace
 %
 COMPARING NORMAL POPULATIONS: A common task in statistics is to determine whether two normally distributed populations have the same mean. The appropriate test can depend on factors such as the sample size and whether the populations are paired or independent.
+https://metacademy.org/graphs/concepts/comparing_normal_populations
 %
 AXIOM OF CHOICE: The Axiom of Choice states that for any set A of sets, there exists a choice function which picks a single element of each x in A. While intuitive, it has some surprising consequences, such as the Banach-Tarski Paradox. It is logically independent of the Zermelo-Frankl axioms, so one may choose whether or not to include it.
+https://metacademy.org/graphs/concepts/axiom_of_choice
 %
 K-MEANS++: The k-means++ algorithm is a simple stochastic procedure for choosing the initial cluster centers for the classic k-means algorithm. This initialization guarantees that the expected objective of the final clustering solution will be within a constant factor of the optimal objective. Briefly stated, k-means++ selects the initial cluster centers as follows: the first center is chosen randomly from the input data points. Next, each subsequent cluster center is chosen from the remaining data points with probability proportional to its squared distance from the point's closest existing cluster center.
+https://metacademy.org/graphs/concepts/k_means_pp
 %
 BAYESIAN PARAMETER ESTIMATION: MULTIVARIATE GAUSSIANS: Using the Bayesian framework, we can infer the posterior over the mean vector of a multivariate Gaussian, the covariance matrix, or both. Since multivariate Gaussians are widely used in probabilistic modeling, the computations that go into this are common motifs in Bayesian machine learning more generally.
+https://metacademy.org/graphs/concepts/bayes_param_multivariate_gaussian
 %
 PARTIAL DERIVATIVES: "A partial derivative of a function of several variables is its derivative with respect to one of those variables, with the others held constant (as opposed to the total derivative, in which all variables are allowed to vary)" [wikipedia entry]. Intuitively, a partial derivative measures the instantaneous rate of change for a single variate in a multivariate function.
+https://metacademy.org/graphs/concepts/partial_derivatives
 %
 MULTINOMIAL COEFFICIENTS: Multinomial coefficients are a generalization of binomial coefficients. They give the total number of ways that n objects can be partitioned into some number of categories, when the counts for each category are given.
+https://metacademy.org/graphs/concepts/multinomial_coefficients
 %
 DIRICHLET DISTRIBUTION: The Dirichlet distribution specifies a distribution on a n-dimensional vector and can be viewed as a probability distribution on a n-1 dimensional simplex (a simplex is an n-dimensional generalization of a triangle). Its parameters determine the distribution of mass on this simplex. The Dirichlet distribution is a conjugate prior to the categorigal and multinomial distributions, and for this reason, it is common in Bayesian statistics. Also, the Dirichlet distribution is a generalization of the beta distribution to higher dimensions (for n=2 it is the beta distribution).
+https://metacademy.org/graphs/concepts/dirichlet_distribution
 %
 BAYESIAN INFORMATION CRITERION: The Bayesian information criterion (BIC) is a rough approximation to the marginal likelihood, based on the asymptotic behavior of the Laplace approximation as more data is observed.
+https://metacademy.org/graphs/concepts/bayesian_information_criterion
 %
 MULTIVARIATE DISTRIBUTIONS: Multivariate distributions are a way of representing the dependencies between multiple random variables.
+https://metacademy.org/graphs/concepts/multivariate_distributions
 %
 ASYMPTOTIC COMPLEXITY: The asymptotic (time) complexity of an algorithm refers to the scaling of the running time of an algorithm as a function of the input size. The time complexity is typically given in terms of big-O notation, where the running time is bounded up to a multiplicative constant.
+https://metacademy.org/graphs/concepts/asymptotic_complexity
 %
 BINARY LINEAR CLASSIFIERS: A linear classifier makes a classification decision for a given observation based on the value of a linear combination of the observation's features. In a ``binary'' linear classifier, the observation is classified into one of two possible classes using a linear boundary in the input feature space.
+https://metacademy.org/graphs/concepts/binary_linear_classifiers
 %
 EM ALGORITHM FOR PCA: While probabilistic PCA has a closed-form solution, it is infeasible to compute for large and high-dimensional datasets. The expectation-maximization (EM) algorithm provides an alternative. Despite its iterative nature, it can be far more computationally efficient.
+https://metacademy.org/graphs/concepts/em_for_pca
 %
 POSITIVE DEFINITE MATRICES: A symmetric matrix A is positive definite if x^T A x > 0 for any nonzero vector x, or positive semidefinite if the inequality is not necessarily strict. They can be equivalently characterized in terms of all of the eigenvalues being positive, or all of the pivots in Gaussian elimination being positive. Examples of PSD matrices include covariance matrices and Hessian matrices of convex functions. The singular value decomposition (SVD) is closely related to the eigendecomposition of a positive semidefinite matrix.
+https://metacademy.org/graphs/concepts/positive_definite_matrices
 %
 MULTIPLICITY OF EIGENVALUES: The characteristic polynomial of a matrix may have repeated roots. If this is the case, the geometric multiplicity of a given eigenvalue (the dimension of the corresponding eigenspace) may be less than the algebraic multiplicity. This property determines whether a matrix is diagonalizable, and it is relevant to the solutions of differential equations.
+https://metacademy.org/graphs/concepts/multiplicity_of_eigenvalues
 %
 PDFS OF FUNCTIONS OF RANDOM VARIABLES: The PDF of a continuous function of continuous random variables can be computed in terms of the joint PDF and the Jacobian of the function.
+https://metacademy.org/graphs/concepts/pdfs_of_functions_of_random_variables
 %
 FUNCTIONS OF SEVERAL VARIABLES: Multivariable calculus deals with functions of multiple variables. For two dimensions, we can visualize these with graphs or with level sets.
+https://metacademy.org/graphs/concepts/functions_of_several_variables
 %
 BAYES' RULE: Bayes' rule is a formula for combining prior beliefs with observed evidence to obtain a "posterior" distribution. It is central to Bayesian statistics, where one infers a posterior over the parameters of a statistical model given the observed data.
+https://metacademy.org/graphs/concepts/bayes_rule
 %
 CONDITIONAL RANDOM FIELDS: MRFs encode factorization and conditional independence structure in a joint distribution over some set of random variables. Conditional random fields (CRFs) instead directly encode the same kind of structure in the conditional distribution of one set of random variables given another. This allows them to represent more complex dependencies in the conditional distribution. They are commonly used in computer vision and natural language processing.
+https://metacademy.org/graphs/concepts/conditional_random_fields
 %
 EXPECTATION-MAXIMIZATION ALGORITHM: Expectation-Maximization (EM) is an algorithm for maximum likelihood estimation in models with hidden variables (usually missing data or latent variables). It involves iteratively computing expectations of terms in the log-likelihood function under the current posterior, and then solving for the maximum likelihood parameters. Common applications include fitting mixture models, learning Bayes net parameters with latent data, and learning hidden Markov models.
+https://metacademy.org/graphs/concepts/expectation_maximization
 %
 PROBIT FUNCTION: Expectation-Maximization (EM) is an algorithm for maximum likelihood estimation in models with hidden variables (usually missing data or latent variables). It involves iteratively computing expectations of terms in the log-likelihood function under the current posterior, and then solving for the maximum likelihood parameters. Common applications include fitting mixture models, learning Bayes net parameters with latent data, and learning hidden Markov models.
+https://metacademy.org/graphs/concepts/probit_function
 %
 PARAMETERIZING LINES AND PLANES: Lines and planes can be defined either as spans of vectors or as solutions to systems of linear equations. Vector operations (in particular, dot products and cross products) allow us to convert between these representations. These tools also let us compute distances between points, lines, and planes.
+https://metacademy.org/graphs/concepts/parameterizing_lines_and_planes
 %
 PRECISION AND RECALL: In pattern recognition and information retrieval, precision (also called positive predictive value) is the fraction of retrieved instances that are relevant, while recall (also called sensitivity) is the fraction of relevant instances that are retrieved (Wikipedia). For instance, if there were 50 relevant documents in a corpus where 20 of the 50 documents were relevant to a user, and an information retrieval (IR) system returned 20 documents, where 6 of the documents were relevant, the recall would be 6/50 = 0.12, and the precision would be 6/20 = 0.3.
+https://metacademy.org/graphs/concepts/precision_recall
 %
 ORTHONORMAL BASES: An orthonormal basis is a basis such that each vector has unit length and each pair of vectors is orthogonal. An orthonormal basis for the full space can be represented as an orthogonal matrix. Such matrices have nice algebraic properties and are useful for representing projections and least squares solutions.
+https://metacademy.org/graphs/concepts/orthonormal_bases
 %
 DIVERGENCE THEOREM: The Divergence Theorem is a theorem relating the flux across a surface to the integral of the divergence over the interior. It can be seen as a three-dimensional generalization of Green's Theorem.
+https://metacademy.org/graphs/concepts/divergence_theorem
 %
 DEEP BELIEF NETWORKS: Deep belief networks (DBNs) are a kind of deep, multilayer graphical model which contains both directed and undirected edges. The bottom layer represents the inputs, and the higher layers are meant to represent increasingly abstract features of the data. DBNs can be trained in a layerwise fashion, and are often used to initialize deep discriminative neural networks, a procedure known as generative pre-training.
+https://metacademy.org/graphs/concepts/deep_belief_networks
 %
 STOCHASTIC GRADIENT DESCENT: Stochastic gradient descent (SGD) is an iterative optimization algorithm that can be applied to functions that are a linear combination of differentiable functions. These types of functions often arise when the full objective function is a linear combination of objective functions at each data point, e.g. a least squares objective function. While batch gradient descent uses the full gradient of the function, SGD approximates the full gradient by using the gradient at each of the functions in the linear combination, e.g. the gradient of the objective function at each data point. SGD is often used to optimize non-convex functions, e.g. those that arise in neural networks.
+https://metacademy.org/graphs/concepts/stochastic_gradient_descent
 %
 MARKOV MODELS: Markov models are a kind of probabilistic model often used in language modeling. The observations are assumed to follow a Markov chain, where each observation is independent of all past observations given the previous one.
+https://metacademy.org/graphs/concepts/markov_models
 %
 MULTINOMIAL DISTRIBUTION: The multinomial distribution is a generalization of the binomial distribution to the case where each of the events may take on more than two possible values.
+https://metacademy.org/graphs/concepts/multinomial_distribution
 %
 RECURSIVE FUNCTIONS: Recursive functions are a kind of mathematical function which, if the Church-Turing hypothesis is correct, correspond to functions which can be computed algorithmically. A subclass knows as primitive recursive functions consists of functions computable by programs where a bound on the number of steps can be calculated in advance. Recursive functions are useful for formalizing notions of computability, because the notion of a recursive function is more precise than that of an algorithm.
+https://metacademy.org/graphs/concepts/recursive_functions
 %
 REJECTION SAMPLING: Rejection sampling (RS) is a monte carlo method for sampling from a potentially complex distribution p(x) given a simpler distribution q(x). RS is applicable when we can evaluate p(x) easily and sample from q(x) easily. The basic idea is to scale q(x) by some constant K such that K*q(x) >= p*(x) for all x, where p(x) = 1/Z p*(x) for some constant Z (that is, we only need to know p(x) up to a normalization factor, which is common in practice). RS operates by sampling a value x0 from q(x) and then generating a uniform random number, u, between [0, K*q(x0)]. If u <= p*(x0) we keep x0 as a valid sample from p(x), else we discard x0.
+https://metacademy.org/graphs/concepts/rejection_sampling
 %
 SCHUR PRODUCT THEOREM: Rejection sampling (RS) is a monte carlo method for sampling from a potentially complex distribution p(x) given a simpler distribution q(x). RS is applicable when we can evaluate p(x) easily and sample from q(x) easily. The basic idea is to scale q(x) by some constant K such that K*q(x) >= p*(x) for all x, where p(x) = 1/Z p*(x) for some constant Z (that is, we only need to know p(x) up to a normalization factor, which is common in practice). RS operates by sampling a value x0 from q(x) and then generating a uniform random number, u, between [0, K*q(x0)]. If u <= p*(x0) we keep x0 as a valid sample from p(x), else we discard x0.
+https://metacademy.org/graphs/concepts/schur_product_theorem
 %
 SEQUENTIAL MINIMAL OPTIMIZATION: Rejection sampling (RS) is a monte carlo method for sampling from a potentially complex distribution p(x) given a simpler distribution q(x). RS is applicable when we can evaluate p(x) easily and sample from q(x) easily. The basic idea is to scale q(x) by some constant K such that K*q(x) >= p*(x) for all x, where p(x) = 1/Z p*(x) for some constant Z (that is, we only need to know p(x) up to a normalization factor, which is common in practice). RS operates by sampling a value x0 from q(x) and then generating a uniform random number, u, between [0, K*q(x0)]. If u <= p*(x0) we keep x0 as a valid sample from p(x), else we discard x0.
+https://metacademy.org/graphs/concepts/sequential_minimal_optimization
 %
 LINEAR REGRESSION WITH MULTIPLE OUTPUTS: Rejection sampling (RS) is a monte carlo method for sampling from a potentially complex distribution p(x) given a simpler distribution q(x). RS is applicable when we can evaluate p(x) easily and sample from q(x) easily. The basic idea is to scale q(x) by some constant K such that K*q(x) >= p*(x) for all x, where p(x) = 1/Z p*(x) for some constant Z (that is, we only need to know p(x) up to a normalization factor, which is common in practice). RS operates by sampling a value x0 from q(x) and then generating a uniform random number, u, between [0, K*q(x0)]. If u <= p*(x0) we keep x0 as a valid sample from p(x), else we discard x0.
+https://metacademy.org/graphs/concepts/linear_regression_multiple_outputs
 %
 LOB'S THEOREM: Lob's Theorem asserts that no formal system T can prove statements of the form "If A is provable in T, then A is true" unless it is also capable of proving A directly. It can be seen as a generalization of Godel's Second Incompleteness Theorem.
+https://metacademy.org/graphs/concepts/lobs_theorem
 %
 MOMENT GENERATING FUNCTIONS: The moment generating function (MGF) is a function which characterizes the distribution of a random variable. MGFs are useful for analyzing sums of independent random variables. In particular, they are used in the proof of the Central Limit Theorem and in deriving the Chernoff bounds, which bound the probability that a sum of independent random variables takes on extreme values.
+https://metacademy.org/graphs/concepts/moment_generating_functions
 %
 CHOLESKY DECOMPOSITION: The moment generating function (MGF) is a function which characterizes the distribution of a random variable. MGFs are useful for analyzing sums of independent random variables. In particular, they are used in the proof of the Central Limit Theorem and in deriving the Chernoff bounds, which bound the probability that a sum of independent random variables takes on extreme values.
+https://metacademy.org/graphs/concepts/cholesky_decomposition
 %
 TOPOLOGY OF R^N: This node covers basic concepts of point set topology, such as limit points and open and closed sets.
+https://metacademy.org/graphs/concepts/topology_of_rn
 %
 QR DECOMPOSITION: The operations of the Gram-Schmidt procedure can be represented as a factorization of a matrix into an orthogonal matrix Q and an upper triangular matrix R. This is a useful representation for solving linear least squares problems.
+https://metacademy.org/graphs/concepts/qr_decomposition
 %
 CHAIN RULE: The chain rule for partial derivatives gives a way of computing the partial derivatives of compositions of functions in terms of the partial derivatives of the individual functions.
+https://metacademy.org/graphs/concepts/chain_rule
 %
 LOGISTIC REGRESSION: Logistic regression is a machine learning model for binary classification, i.e. learning to classify data points into one of two categories. It's a linear model, in that the decision depends only on the dot product of a weight vector with a feature vector. This means the classification boundary can be represented as a hyperplane. It's a widely used model in its own right, and the general structure of linear-followed-by-sigmoid is a common motif in neural networks.
+https://metacademy.org/graphs/concepts/logistic_regression
 %
 STUDENT-T DISTRIBUTION: The student-t distribution is a continuous probability distribution motivated by estimating the mean of a Gaussian population with unknown variance.
+https://metacademy.org/graphs/concepts/student_t_distribution
 %
 LINEAR REGRESSION: Linear regression is an algorithm for learning to predict a real-valued ``target'' variable as a linear function of one or more real-valued ``input'' variables. It is one of the most widely used statistical learning algorithms, and with care it can be made to work very well in practice. Because it has a closed-form solution, we can exactly analyze many properties of linear regression which have no exact form for other models. This makes it a useful starting point for understanding many other statistical learning algorithms.
+https://metacademy.org/graphs/concepts/linear_regression
 %
 FIRST-ORDER LOGIC: First-order logic refers to a class of formal languages which include the propositional connectives, quantifiers, functions, and predicates. It underlies many automated reasoning systems and can be used to define various formalizations of mathematics, such as Peano arithmetic, and Zermelo-Frankl set theory.
+https://metacademy.org/graphs/concepts/first_order_logic
 %
 THE SUPPORT VECTOR MACHINE: The support vector machine (SVM) is a classification algorithm which tries to fit a hyperplane which maximizes the margin, or the smallest distance separating an example from the decision boundary. The main advantage is that SVMs can be kernelized, allowing them to represent complex nonlinear decision boundaries. Conveniently, the kernelized representation only requires explicitly computing kernels with a small fraction of the data points.
+https://metacademy.org/graphs/concepts/support_vector_machine
 %
 MULTIDIMENSIONAL SCALING: Multidimensional scaling is a method for visualizing similarity between data points by embedding the data into a low-dimensional subspace. The locations are chosen so that the distances in the embedding space match the dissimilarities as closely as possible.
+https://metacademy.org/graphs/concepts/multidimensional_scaling
 %
 NAIVE BAYES: Naive Bayes is a modeling assumption used in classification, where we assume the observed data are conditionally independent given their class assignments. Despite its name, the standard naive Bayes model does not use Bayesian inference, but rather, a maximum likelihood estimation.
+https://metacademy.org/graphs/concepts/naive_bayes
 %
 PAC LEARNING: Probably approximately correct (PAC) learning is a theoretical framework for analyzing the generalization error of a learning algorithm in terms of its error on a training set and some measure of complexity. The goal is typically to show that an algorithm achieves low generalization error with high probability.
+https://metacademy.org/graphs/concepts/pac_learning
 %
 LINEAR DYNAMICAL SYSTEMS: Linear dynamical systems (LDSs) are a kind of probabilistic model where a latent state evolves over time, all the variables are jointly Gaussian, and all the dependencies are linear. They are commonly used in robotics, computer vision (for tracking), and time series modeling. They are useful because we can perform exact posterior inference using Kalman filtering and smoothing. Algorithms for LDSs form the basis for analogous techniques in more general state space models, where some of the assumptions are not satisfied.
+https://metacademy.org/graphs/concepts/linear_dynamical_systems
 %
 CONDITIONAL EXPECTATION: The conditional expectation E[X | Y] is the expectation of X in the conditional distribution P(X | Y).
+https://metacademy.org/graphs/concepts/conditional_expectation
 %
 SINGULAR VALUE DECOMPOSITION: The singular value decomposition is a factorization of a matrix A into three matrices UDV^T, where D is diagonal and U and V have orthonormal columns. It's closely related to the eigenvalues and eigenvectors of A^T A and A A^T. It gives a way of analyzing general matrices (not necessarily square) in terms of things somewhat analogous to eigenvalues. Common applications include latent semantic analysis (LSA) and principal component analysis (PCA), a dimensionality reduction algorithm.
+https://metacademy.org/graphs/concepts/singular_value_decomposition
 %
 COMPUTATIONAL COMPLEXITY OF GRAPHICAL MODEL INFERENCE: The major inference problems for graphical models (marginalization, MAP assignment, and partition function) are all intractable in the worst case. In particular, marginalization and partition function computation are both #P-complete, and MAP inference is NP-complete.
+https://metacademy.org/graphs/concepts/complexity_of_inference
 %
 DECISION TREES: Decision trees are a kind of tree-structured model used in machine learning and data mining. Each leaf node corresponds to a prediction, and each internal node divides the data points into two or more sets depending on the value of one of the input variables. Decision trees are widely used because of their simplicity and their ability to handle heterogeneous input features.
+https://metacademy.org/graphs/concepts/decision_trees
 %
 DECIDABILITY: Decision trees are a kind of tree-structured model used in machine learning and data mining. Each leaf node corresponds to a prediction, and each internal node divides the data points into two or more sets depending on the value of one of the input variables. Decision trees are widely used because of their simplicity and their ability to handle heterogeneous input features.
+https://metacademy.org/graphs/concepts/decidability
 %
 VARIATIONAL INTERPRETATION OF EM: The expectation-maximization (EM) algorithm can be interpreted as a coordinate ascent procedure which optimizes a variational lower bound on the likelihood function. This connects it with variational inference algorithms and justifies various generalizations and approximations to the algorithm.
+https://metacademy.org/graphs/concepts/em_variational_interpretation
 %
 GAUSSIAN ELIMINATION: Gaussian elimination is an algorithm for solving systems of linear equations, computing matrix inverses, and computing the LU factorization of a matrix.
+https://metacademy.org/graphs/concepts/gaussian_elimination
 %
 RANDOM FORESTS: Random forests are a machine learning algorithm which averages the predictions over decision trees restricted to random subsets of the input features. They are widely used because they often perform very well with almost no parameter tuning.
+https://metacademy.org/graphs/concepts/random_forests
 %
 SWEDSEN-WANG ALGORITHM: The Swedsen-Wang algorithm is an MCMC algorithm for sampling from Ising models. It is an auxiliary variable model, where we define a set of "bond" variables which determine which states are coupled, and we alternate between sampling the states and the bond variables. It mixes much faster than Gibbs sampling in models where the variables are tightly coupled.
+https://metacademy.org/graphs/concepts/swedsen_wang
 %
 GIBBS SAMPLING AS A SPECIAL CASE OF METROPOLIS-HASTINGS: Gibbs sampling can be seen as a special case of the Metropolis-Hastings algorithm where the transition operators are chosen such that the acceptance probability is 1.
+https://metacademy.org/graphs/concepts/gibbs_as_mh
 %
 MARKOV DECISION PROCESS (MDP): A Markov Decision Process (MDP) is a mathematical framework for handling search/planning problems where the outcome of actions are uncertain (non-deterministic). MDPs aim to maximize the expected utility (minimize the expected loss) throughout the search/planning.
+https://metacademy.org/graphs/concepts/markov_decision_process
 %
 MARKOV CHAIN MONTE CARLO: Markov Chain Monte Carlo (MCMC) is a set of techniques for approximately sampling from a probability distribution p by running a Markov chain which has p as its stationary distribution. Gibbs sampling and Metropolis-Hastings are the most common examples.
+https://metacademy.org/graphs/concepts/markov_chain_monte_carlo
 %
 BAYES BALL: D-separation gives a way of determining conditional independence properties of a Bayes net from the graphical representation, but unfortunately the definition itself doesn't give a practical algorithm. Bayes ball is an efficient algorithm for computing d-separation by passing simple messages between nodes of the graph. The name "Bayes Ball" stems from the idea of balls bouncing around a directed graph, where if a ball cannot bounce between two nodes then they are [conditionally] independent.
+https://metacademy.org/graphs/concepts/bayes_ball
 %
 GENERATIVE VS. DISCRIMINATIVE MODELS: D-separation gives a way of determining conditional independence properties of a Bayes net from the graphical representation, but unfortunately the definition itself doesn't give a practical algorithm. Bayes ball is an efficient algorithm for computing d-separation by passing simple messages between nodes of the graph. The name "Bayes Ball" stems from the idea of balls bouncing around a directed graph, where if a ball cannot bounce between two nodes then they are [conditionally] independent.
+https://metacademy.org/graphs/concepts/generative_vs_discriminative
 %
 MARKOV AND CHEBYSHEV INEQUALITIES: Markov's inequality and Chebyshev's inequality are tools for bounding the probability of a random variable taking on extreme values. While the bounds are weak, they apply under very general conditions. One use of Chebyshev's inequality is to prove the weak law of large numbers.
+https://metacademy.org/graphs/concepts/markov_and_chebyshev_inequalities
 %
 TANGENT PROPAGATION: Tangent propagation is a way of regularizing neural nets. It encourages the representation to be invariant by penalizing large changes in the representation when small transformations are applied to the inputs.
+https://metacademy.org/graphs/concepts/tangent_propagation
 %
 SUBSPACES: A subspace is a subset of a vector space which is itself a vector space. Examples include spans of sets of vectors and solution sets to linear equations of the form Ax = 0.
+https://metacademy.org/graphs/concepts/subspaces
 %
 INDEPENDENT RANDOM VARIABLES: Intuitively, two random variables are independent if they don't influence each other. Mathematically, two random variables are independent if the events associated with each random variable lying in some set are independent. In statistics and probabilistic modeling, different random variables are often assumed to be independent in order to allow for efficient estimation and inference.
+https://metacademy.org/graphs/concepts/independent_random_variables
 %
 THE KERNEL TRICK: We can use linear models to model complex nonlinear functions by mapping the original data to a basis function representation. Such a representation can get unweildy, however. The kernel trick allows us to implicitly map the data to a very high (possibly infinite) dimensional space by replacing the dot product with a more general inner product, or kernel.
+https://metacademy.org/graphs/concepts/kernel_trick
 %
 NP-COMPLETENESS: A problem L is NP-complete if it is in NP and every other problem in NP can be reduced to L. NP-complete problems are therefore the "hardest" problems in NP: if any NP-complete problem has a polynomial time solution, then P = NP. Many widely studied problems are NP-complete, and practically speaking, one might as well give up looking for polynomial time algorithms for such problems.
+https://metacademy.org/graphs/concepts/np_completeness
 %
 GAUSSIAN DISCRIMINANT ANALYSIS: Gaussian discriminant analysis (GDA) is a generative model for classification where the distribution of each class is modeled as a multivariate Gaussian.
+https://metacademy.org/graphs/concepts/gaussian_discriminant_analysis
 %
 NONPARAMETRIC DENSITY ESTIMATION: Gaussian discriminant analysis (GDA) is a generative model for classification where the distribution of each class is modeled as a multivariate Gaussian.
+https://metacademy.org/graphs/concepts/nonparametric_density_estimation
 %
 BAYESIAN PARAMETER ESTIMATION: In the Bayesian framework, we treat the parameters of a statistical model as random variables. The model is specified by a prior distribution over the values of the variables, as well as an evidence model which determines how the parameters influence the observed data. When we condition on the observations, we get the posterior distribution over parameters. The term ``Bayesian parameter estimation'' is deceptive, because often we can skip the parameter estimation step entirely. Rather, we integrate out the parameters and directly make predictions about future observables.
+https://metacademy.org/graphs/concepts/bayesian_parameter_estimation
 %
 JENSEN'S INEQUALITY: Jensen's Inequality states that the expectation of a convex function is larger than the function of the expectation. It is used to prove the Rao-Blackwell theorem in statistics, and is the basis behind many algorithms for probabilistic inference, including Expectation-Maximization (EM) and variational inference.
+https://metacademy.org/graphs/concepts/jensens_inequality
 %
 MUTUAL INFORMATION: Mutual information is a measure of the amount of information one random variable conveys about another. It is one of the fundamental quantities of information theory, and determines the rate at which information can be conveyed over a noisy channel.
+https://metacademy.org/graphs/concepts/mutual_information
 %
 ADABOOST: AdaBoost is an example of a boosting algorithm, where the goal is to take a "weak classifier" (one which performs slightly above chance) and make it into a "strong classifier" (one which performs well on the training set). It is widely used in data mining, especially in conjunction with decision trees, because of its simplicity and effectiveness.
+https://metacademy.org/graphs/concepts/ada_boost
 %
 VARIABLE ELIMINATION: Variable elimination is a simple algorithm for marginalization and partition function computation in graphical models. It is based on interchanging sums and products in the definitions of marginals or partition functions. While it produces exact answers, the complexity blows up exponentially in the worst case.
+https://metacademy.org/graphs/concepts/variable_elimination
 %
 BAYESIAN LOGISTIC REGRESSION: A Bayesian version of logistic regression.
+https://metacademy.org/graphs/concepts/bayesian_logistic_regression
 %
 SVM OPTIMALITY CONDITIONS: Using Lagrange duality, we can formulate a set of conditions that characterize the optimal solution to the SVM objective. These conditions show that the weight vector is a linear combination of a (hopefully small) subset of the training points, those for which the margin constraint is tight.
+https://metacademy.org/graphs/concepts/svm_optimality_conditions
 %
 INDIAN BUFFET PROCESS: The Indian Buffet Process (IBP) is a generative model for random "feature allocations" (a "feature allocation" is analogous to a clustering except a given datum can belong to more than one cluster). So while the Chinese Restaurant Process describes a generative model for dividing N integers (customers) into K partitions (table assignments), the IBP describes a generative model for dividing N integers into K subsets, where each integer can occur in an arbitrary number of subsets. These subsets are known as "features" and the entire set is known as a "feature allocation". Note: the IBP has a more formal definition in probability theory where it is known as the marginalized distribution of a Beta process.
+https://metacademy.org/graphs/concepts/indian_buffet_process
 %
 BAYESIAN PARAMETER ESTIMATION IN EXPONENTIAL FAMILIES: Exponential families are convenient for Bayesian parameter estimation because the conjugate priors often have a convenient form, and there is a simple form for the posterior.
+https://metacademy.org/graphs/concepts/bayes_param_exp_fam
 %
 COMPACTNESS OF FIRST-ORDER LOGIC: The Compactness Theorem for first-order logic states that for any set of sentences S, if every finite subset of S has a model, then S has a model. This theorem can be used to show that certain sets of structures are not definable in first-order logic; examples include connected graphs and finite sets of unbounded size. It also enables the nonstandard analysis, where the real number line is extended to include infinitesimals.
+https://metacademy.org/graphs/concepts/compactness_of_first_order_logic
 %
 DIAGONALIZATION: Diagonalization refers to factorizing a matrix as A = SDS^-1, where D is a diagonal matrix. The entries of D correspond to the eigenvalues of A, and the columns of S correspond to the eigenvectors. The diagonal representation is useful for computing powers of matrices. Unfortunately, not all matrices are diagonalizable.
+https://metacademy.org/graphs/concepts/diagonalization
 %
 LOWENHEIM-SKOLEM THEOREMS: The Lowenheim-Skolem theorems state that if a first-order theory has an infinite model, then it has models of every infinite cardinality. It implies that certain foundational theories in mathematics, such as Peano arithmetic and Zermelo-Frankl set theory, must have nonstandard models.
+https://metacademy.org/graphs/concepts/lowenheim_skolem_theorems
 %
 SOFT WEIGHT SHARING IN NEURAL NETS: Soft weight sharing is a form of regularization for neural networks where groups of weights are encouraged to have similar values.
+https://metacademy.org/graphs/concepts/soft_weight_sharing_neural_nets
 %
 LANGRANGE DUALITY: The Lagrange dual of a convex optimization problem is another convex optimization problem where the optimization variables are the Lagrange multipliers of the original problem. It leads to surprising relationships between seemingly different optimization problems. Duality is commonly used in approximation algorithms, since constraining the dual corresponds to relaxing the original problem.
+https://metacademy.org/graphs/concepts/lagrange_duality
 %
 PROBIT REGRESSION: Probit regression is a discriminative model for classification. In this model, the binary targets are generated by sampling latent Gaussian variables whose means are linear in the inputs, and passing them through a threshold.
+https://metacademy.org/graphs/concepts/probit_regression
 %
 GREEN'S THEOREM: Green's Theorem is a theorem relating the integrals of the curl and the divergence of a vector field over a closed region to a line integral along its boundary.
+https://metacademy.org/graphs/concepts/greens_theorem
 %
 FIELDS: Green's Theorem is a theorem relating the integrals of the curl and the divergence of a vector field over a closed region to a line integral along its boundary.
+https://metacademy.org/graphs/concepts/fields
 %
 RIDGE REGRESSION: A problem with vanilla linear regression is that it can overfit, by forcing the learned parameters to match all the idiosyncrasies of the training data. Ridge regression, or regularized linear regression, is a way of extending the cost function with a regularizer which penalizes large weights. This leads to simpler solutions and often improves generalization performance. This idea of regularization can be used to improve the generalization performance of many other statistical models as well.
+https://metacademy.org/graphs/concepts/ridge_regression
 %
 MULTIPLE INTEGRALS: A multiple integral generalizes integration to functions of n variables and produces a general (n-1)-dimensional volume. For instance, n=2 corresponds to an area. Multiple integrals occur frequently in probability theory and machine learning when examining marginal densities.
+https://metacademy.org/graphs/concepts/multiple_integrals
 %
 RIDGE REGRESSION AS SVD: It's possible to write the ridge regression solution in terms of the SVD of the dataset. This gives insight into how it makes predictions. It also gives a way of defining the "degrees of freedom" or "effective number of parameters" of the model, which lets us analyze the degree of overfitting.
+https://metacademy.org/graphs/concepts/ridge_regression_as_svd
 %
 TAYLOR APPROXIMATIONS: It's possible to write the ridge regression solution in terms of the SVD of the dataset. This gives insight into how it makes predictions. It also gives a way of defining the "degrees of freedom" or "effective number of parameters" of the model, which lets us analyze the degree of overfitting.
+https://metacademy.org/graphs/concepts/taylor_approximations
 %
 MATRIX INVERSE: The inverse of a matrix A is a matrix which, when multiplied by A, gives the identity matrix. When it exists, it can be used to solve systems of linear equations.
+https://metacademy.org/graphs/concepts/matrix_inverse
 %
 KERNEL PCA: The inverse of a matrix A is a matrix which, when multiplied by A, gives the identity matrix. When it exists, it can be used to solve systems of linear equations.
+https://metacademy.org/graphs/concepts/kernel_pca
 %
 COMPACTNESS OF PROPOSITIONAL LOGIC: The Compactness Theorem of propositional logic states that if a given set of propositional sentences is contradictory, then there is also some finite subset which is contradictory.
+https://metacademy.org/graphs/concepts/compactness_of_propositional_logic
 %
 REVERSIBLE JUMP MCMC: Reversible jump MCMC is a special case of Metropolis-Hastings where proposals are made between continuous spaces of differing dimensionality. The most common use is in Bayesian model averaging.
+https://metacademy.org/graphs/concepts/reversible_jump_mcmc
 %
 PRINCIPAL COMPONENT ANALYSIS: Principal component analysis is a method for projecting data into a lower dimensional space. It works by finding the space which maximizes the variance of the projections, or equivalently, minimizes the reconstruction error. Mathematically, it corresponds to computing the SVD of the transformed data, or the spectral decomposition of the covariance matrix.
+https://metacademy.org/graphs/concepts/principal_component_analysis
 %
 POLICY ITERATION: Policy iteration is a two step iterative algorithm for computing an optimal policy for a Markov decision process. Policy iteration alternates between (i) computing the value function for a fixed policy (which could be initialized randomly) and (ii) improving the policy by selecting the actions that maximize the values computed in the previous step. Policy iteration generally converges to an optimal policy much quicker than value iteration.
+https://metacademy.org/graphs/concepts/policy_iteration
 %
 INDEPENDENT EVENTS: Intuitively, two events are independent if the first event happening doesn't influence whether the second is likely to occur. Mathematically, some set of events are independent if the joint probability of some subset of the events decomposes into a product of the probabilities of the individual events. In statistics and AI, a probabilistic model often must make independence assumptions in order for things to be efficiently computable.
+https://metacademy.org/graphs/concepts/independent_events
 %
 MAXIMUM LIKELIHOOD: MULTIVARIATE GAUSSIANS: Intuitively, two events are independent if the first event happening doesn't influence whether the second is likely to occur. Mathematically, some set of events are independent if the joint probability of some subset of the events decomposes into a product of the probabilities of the individual events. In statistics and AI, a probabilistic model often must make independence assumptions in order for things to be efficiently computable.
+https://metacademy.org/graphs/concepts/maximum_likelihood_multivariate_gaussians
 %
 BAYESIAN NAIVE BAYES: A Bayesian version of naive Bayes in which we place a prior distribution on the latent class assignment parameter.
+https://metacademy.org/graphs/concepts/bayesian_naive_bayes
 %
 DOT PRODUCT: The dot product is an operation on vectors. It is used to define notions such as vector length, perpendicular vectors, and angles between vectors.
+https://metacademy.org/graphs/concepts/dot_product
 %
 CONVEX FUNCTIONS: Intuitively, convex functions are bowl-shaped. They are significant in optimization, because it is often possible to efficiently find the global optimum of a convex function.
+https://metacademy.org/graphs/concepts/convex_functions
 %
 DIRICHLET PROCESS: The Dirichlet process is a stochastic process that defines a probability distribution over infinite-dimensional discrete distributions, meaning that a draw form a DP is itself a distribution (with a countably infinite number of parameters). Its name stems from the fact that the marginal of a DP for any finite partition is Dirichlet distributed. While the DP is often discussed alongside the Chinese Restaurant Process (CRP), the two are not the same entity. The DP is the de Finetti mixing measure for the CRP, meaning that sampling i.i.d. from a draw of a DP is equivalent to sequentially drawing samples from the CRP.
+https://metacademy.org/graphs/concepts/dirichlet_process
 %
 STATISTICAL HYPOTHESIS TESTING: Statistical hypothesis testing is a method for deciding what conclusions can be drawn from data. A central question is determining whether an outcome is statistically significant, or unlikely to have arisen by chance.
+https://metacademy.org/graphs/concepts/statistical_hypothesis_testing
 %
 ULTRAPRODUCT: The ultraproduct is an operation which combines a set of first-order structures into a single structure, in a way that respects the semantics of the individuals structures. This construction is used to give a purely semantic proof of the Compactness Theorem for first-order logic. It also gives a method for constructing non-standard models of first-order theories such as Peano arithmetic.
+https://metacademy.org/graphs/concepts/ultraproduct
 %
 EXPECTATION PROPAGATION: In some graphical models, it is intractable even to compute the messages in loopy belief propagation. Expectation propagation is a way of approximating these messages in terms of expectations of sufficient statistics. It can be viewed as a variational inference algorithm, and often gives much more accurate results than mean field based approximations.
+https://metacademy.org/graphs/concepts/expectation_propagation
 %
 COMPLEX NUMBERS: Complex numbers are numbers expressible as a + bi, where i^2 = -1. They are often more convenient to work with than real numbers, because all complex (and hence all real) polynomials of degree n have n complex roots. Many trigonometric identities can be derived more simply using complex numbers.
+https://metacademy.org/graphs/concepts/complex_numbers
 %
 EXTERIOR DERIVATIVE: The exterior function is a generalization of the differential of a function to differential forms. It appears in the statement of Stokes's Theorem for manifolds.
+https://metacademy.org/graphs/concepts/exterior_derivative
 %
 DIFFERENTIAL ENTROPY: Differential entropy is a generalization of entropy to continuous random variables. It is closely related to the asymptotic entropy of increasingly fine discretizations of the continuous distribution. KL divergence and mutual information can similarly be extended to the continuous case.
+https://metacademy.org/graphs/concepts/differential_entropy
 %
 EULER'S FORMULA: Euler's formula gives a way of raising numbers to complex powers. It gives a more compact way of representing and deriving trigonometric identities.
+https://metacademy.org/graphs/concepts/eulers_formula
 %
 PROBABILITY: Probability theory is a set of mathematical techniques for reasoning about uncertainty. Intuitively, probabilities can be thought of as describing long-run frequencies or subjective beliefs. Mathematically, a probability measure is a function on subsets of a sample space which satisfy certain axioms.
+https://metacademy.org/graphs/concepts/probability
 %
 SVM VS. LOGISTIC REGRESSION: Logistic regression and SVMs are closely related algorithms, even though this isn't obvious from the usual presentation. In particular, the loss functions are very similar, and linear SVMs and logistic regression can often be substituted for one another without a big difference in performance.
+https://metacademy.org/graphs/concepts/svm_vs_logistic_regression
 %
 MAX-PRODUCT ON TREES: Max-product is an algorithm for MAP estimation in graphical models, based on dynamic programming. It is a generalization of the Viterbi algorithm for hidden Markov models.
+https://metacademy.org/graphs/concepts/max_product_on_trees
 %
 AKAIKE INFORMATION CRITERION: The Akaike Information Criterion (AIC) is a frequentist model selection criterion typically used to regularize maximum likelihood estimators. The AIC provides a relative estimate of the quality of the tested models (so it is necessary to report the AIC differences between models), but the AIC will not indicate if all tested models poorly describe the data. The quality score is a relative estimate of the kl-divergence between the given model and the true model.
+https://metacademy.org/graphs/concepts/akaike_information_criterion
 %
 TIKHONOV REGULARIZATION: The Akaike Information Criterion (AIC) is a frequentist model selection criterion typically used to regularize maximum likelihood estimators. The AIC provides a relative estimate of the quality of the tested models (so it is necessary to report the AIC differences between models), but the AIC will not indicate if all tested models poorly describe the data. The quality score is a relative estimate of the kl-divergence between the given model and the true model.
+https://metacademy.org/graphs/concepts/tikhonov_regularization
 %
 ZERMELO-FRANKL AXIOMS: The Zermelo-Frankl axioms are the standard formalization of set theory in mathematics. They include the Axiom of Extensionality (two sets are equal if they have the same elements), various comprehension axioms (which enable one to construct sets), and the Axiom of Regularity (which rules out certain pathological sets). Most of mathematics can be derived from these axioms.
+https://metacademy.org/graphs/concepts/zermelo_frankl_axioms
 %
 PROBABILISTIC PCA: Probabilistic principal component analysis (PCA) is a formulation of PCA as a latent variable model. Each data point is assumed to be generated as a linear function of Gaussian latent variables, plus noise. Like PCA, it has a closed form solution in terms of the truncated SVD of the covariance matrix.
+https://metacademy.org/graphs/concepts/probabilistic_pca
 %
 LINEAR APPROXIMATION: A function is differentiable at a point x if it can be approximated by a linear function around x. The linear approximation can be computed in terms of the partial derivatives at x.
+https://metacademy.org/graphs/concepts/linear_approximation
 %
 BAYESIAN ESTIMATION OF BAYES NET PARAMETERS: Bayesian parameter estimation techniques can be applied to learning Bayes net parameters. This leads to more stable estimates in situations with limited data and can improve generalization performance.
+https://metacademy.org/graphs/concepts/bayesian_estimation_bayes_net_params
 %
 FITTING LOGISTIC REGRESSION WITH ITERATIVE REWEIGHTED LEAST SQUARES: One way of fitting logistic regression is using Newton's method. This winds up having an intuitive form, where each update takes the form of a linear regression problem and the data points are all assigned weights depending how far they are from the decision boundary.
+https://metacademy.org/graphs/concepts/logistic_regression_irls
 %
 EXPECTATION AND VARIANCE: The expectation of a random variable is the value that it takes "on average," and the variance is a measure of how much the random variable deviates from that value "on average." Expectation and variance have several convenient properties that often allow one to abstract away the underlying PDFs or PMFs.
+https://metacademy.org/graphs/concepts/expectation_and_variance
 %
 CARDINALITY: Cardinality is a way of measuring the size of a set. Two sets have the same cardinality if they are equinumerous, i.e. if there is a bijective mapping between them. A has a larger cardinality than B if there is an injective mapping from B to A. Cardinality gives a precise way to talk about different sizes of infinity.
+https://metacademy.org/graphs/concepts/cardinality
 %
 MIXTURE OF BERNOULLIS: Cardinality is a way of measuring the size of a set. Two sets have the same cardinality if they are equinumerous, i.e. if there is a bijective mapping between them. A has a larger cardinality than B if there is an injective mapping from B to A. Cardinality gives a precise way to talk about different sizes of infinity.
+https://metacademy.org/graphs/concepts/mixture_of_bernoullis
 %
 THE EVIDENCE APPROXIMATION: The evidence approximation is an approximation to Bayesian parameter estimation and model comparison. Rather than integrating out model hyperparameters, the hyperparameters chosen to maximize the marginal likelihood of the data.
+https://metacademy.org/graphs/concepts/evidence_approximation
 %
 BASES: A basis is a set of linearly independent vectors that define a coordinate system for a vector space, where the basis vectors span the entire vector space (meaning that any vector in this space can be represented as a linear combination of the basis vectors).
+https://metacademy.org/graphs/concepts/bases
 %
 LATENT SEMANTIC ANALYSIS: Latent Semantic Analysis (LSA), or Latent Semantic Indexing (LSI), is a statistical technique typically used for analyzing relationships between a set of documents and the terms they contain. At its core, LSA performs singular value decomposition (SVD) on a term-by-document count matrix of a corpus and interprets the SVD factors as the "topics" of the documents.  We can then use these resulting factors (topics) to determine the document-document, document-term, and term-term similarities in the given corpus.
+https://metacademy.org/graphs/concepts/latent_semantic_analysis
 %
 LU FACTORIZATION: The LU factorization is a factorization of a matrix into a lower triangular and an upper triangular matrix. It can be computed by recording the row operations used in Gaussian elimination. It can be a more efficient and numerically stable method of solving linear systems compared to matrix inverses.
+https://metacademy.org/graphs/concepts/lu_factorization
 %
 VARIATIONAL MIXTURE OF GAUSSIANS: Variational Bayes EM can be applied to fitting a mixture of Gaussians model. Unlike standard mixture of Gaussians fit with EM, the variational algorithm automatically controls the model complexity and yields a lower bound on the marginal likelihood.
+https://metacademy.org/graphs/concepts/variational_mixture_of_gaussians
 %
 GAUSSIAN VARIABLE ELIMINATION AS GAUSSIAN ELIMINATION: The computations involved in Gaussian variable elimination are the same as those used to compute the Cholesky decomposition of the covariance matrix.
+https://metacademy.org/graphs/concepts/gaussian_variable_elimination_as_gaussian_elimination
 %
 BAYESIAN NETWORKS: Bayesian networks are a graphical formalism for representing the structure of a probabilistic model, i.e. the ways in which the random variables may depend on each other. Intuitively, they are good at representing domains with a causal structure, and the edges in the graph determine which variables directly influence which other variables. They can be equivalently viewed as representing a factorization structure of the joint probability distribution, or as encoding a set of conditional independence assumptions about the distribution.
+https://metacademy.org/graphs/concepts/bayesian_networks
 %
 THE CURSE OF DIMENSIONALITY: The curse of dimensionality refers to a collection of counterintuitive properties of high-dimensional spaces which make it difficult to learn using purely local algorithms such as K nearest neighbors.
+https://metacademy.org/graphs/concepts/curse_of_dimensionality
 %
 BAYESIAN MODEL AVERAGING: In model selection, we typically select a single "best" model from a set of candidate models (based upon some selection criteria, such as an AIC score) and then use this model for prediction. Instead of selecting a single "best" model and using it for prediction, Bayesian Model Averaging BMA uses a weighted average of each model's individual prediction for the final predicted value, where the weight is the posterior probability of the model given the data.
+https://metacademy.org/graphs/concepts/bayesian_model_averaging
 %
 LATENT DIRICHLET ALLOCATION: Latent Dirichlet Allocation (LDA) is a probabilistic mixture of mixtures (or admixture) model for grouped data. It is most commonly used as a topic model, where the observed data is the words and the groups are the individual documents. In the LDA topic model, the observed data (words) within the groups (documents) are the result of probabilistically choosing words from a specific topic (multinomial over the vocabulary), where the topic is itself drawn from a document-specific multinomial that has a global Dirichlet prior.
+https://metacademy.org/graphs/concepts/latent_dirichlet_allocation
 %
 GAUSSIAN DISTRIBUTION: The Gaussian (or normal) distribution has a bell shape, and is one of the most common in all of statistics. The Central Limit Theorem shows that sums of large numbers of independent, identically distributed random variables are well approximated by a Gaussian distribution. The parameter estimates in a statistical model are also asymptotically Gaussian. Gaussians are widely used in probabilistic modeling for these reasons, together with the fact that Gaussian distributions can be efficiently manipulated using the techniques of linear algebra.
+https://metacademy.org/graphs/concepts/gaussian_distribution
 %
 SUPPORT VECTOR REGRESSION: Support vector regression is an analogue of the support vector machine (SVM) which is used for regression rather than classification. The loss function is hinge loss, which ignores small errors and penalizes errors linearly beyond some margin. Like with SVMs, the main selling point is the ability to represent complex nonlinear decision boundaries in terms of kernels with a small number of training examples.
+https://metacademy.org/graphs/concepts/support_vector_regression
 %
 VECTOR SPACES: Vector spaces are spaces which are closed under addition and scalar multiplication. Examples include vectors, matrices, polynomials, and functions. Many core concepts of linear algebra, such as linear independence, bases, and dimension, are defined for general vector spaces.
+https://metacademy.org/graphs/concepts/vector_spaces
 %
 DIFFERENTIAL FORMS: Differential forms are multilinear functions on vector fields which satisfy certain properties analogous to determinants. They are used to define a notion of integration on manifolds.
+https://metacademy.org/graphs/concepts/differential_forms
 %
 MATRIX MULTIPLICATION: Matrix multiplication is an operator on matrices which satisfies many of the properties of multiplication, although not commutativity.
+https://metacademy.org/graphs/concepts/matrix_multiplication
 %
 KALMAN SMOOTHING AS FORWARD-BACKWARD: Kalman smoothing can be seen as a special case of the forward-backward algorithm for inference in HMMs. This leads to a simpler derivation than the classical one.
+https://metacademy.org/graphs/concepts/kalman_as_forward_backward
 %
 KKT CONDITIONS: The Karush-Kuhn-Tucker (KKT) conditions are a set of optimality conditions for optimization problems in terms of the optimization variables and Lagrange multipliers.
+https://metacademy.org/graphs/concepts/kkt_conditions
 %
 BACKPROPAGATION FOR SECOND-ORDER METHODS: Backpropagation is normally used to propagate first-order derivatives (gradients). However, it can also be used to propagate second-order derivatives, at least approximately.
+https://metacademy.org/graphs/concepts/backpropagation_second_order
 %
 REAL NUMBERS: Backpropagation is normally used to propagate first-order derivatives (gradients). However, it can also be used to propagate second-order derivatives, at least approximately.
+https://metacademy.org/graphs/concepts/real_numbers
 %
 ULTRAFILTERS: Backpropagation is normally used to propagate first-order derivatives (gradients). However, it can also be used to propagate second-order derivatives, at least approximately.
+https://metacademy.org/graphs/concepts/ultrafilters
 %
 GENERALIZED LINEAR MODELS: Generalized linear models are a class of linear models which unify several widely used models, including linear regression and logistic regression. The distribution over each output is assumed to be an exponential family distribution whose natural parameters are a linear function of the inputs.
+https://metacademy.org/graphs/concepts/generalized_linear_models
 %
 FIRST-ORDER UNIFICATION: Unification is a procedure which takes two symbolic expressions containing variables, and returns a substitution to the variables which makes the expressions identical. It is a key component of first-order theorem provers and type inference systems.
+https://metacademy.org/graphs/concepts/first_order_unification
 %
